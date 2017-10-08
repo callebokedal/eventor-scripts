@@ -12,7 +12,7 @@ En obligatorisk textfil som innehåller aktuell API-nyckel.
 
 **Tips:** Skydda filen genom `chmod 600 apikey.txt`.
 
-## Konfigurations-fil
+## Konfigurationsfil
 
 En obligatorisk textfil i json-format som innehåller den konfiguration du vill exekvera.
 
@@ -33,10 +33,10 @@ Eftersom del dokumentation saknas gällande Eventors API, finns här en del saml
 
 Dokumentation som jag hittat:
 
-    https://eventor.orienteering.org/api/documentation
-    https://eventor.orientering.se/api/documentation
+* https://eventor.orienteering.org/api/documentation
+* https://eventor.orientering.se/api/documentation
 
-Den skiljer sig lite. 
+Dokumentationen skiljer sig lite på dessa två sidor - så läs båda.
 
 ## EventStatusId-värden
 
