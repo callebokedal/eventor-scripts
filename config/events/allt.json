@@ -1,6 +1,8 @@
 {
-    "fromDate": "2017-10-10",  // Start from date: Format: "yyyy-mm-dd"
-    "duration": 10,             // Number of days after start date. Format: {integer}
-    "classificationIds": [1,2,3,4],  // Classification ids. Format: Array of {Integer}
-    "organisationIds": [321,3,6,12,13] // Organisations ids. Format: Array of {Integer}
+    "clubId": 321,                          // Id for organisation. 321 = Sjövalla FK
+    //"fromDate": "2017-10-10",               // Start date. Format: "yyyy-mm-dd". Default: <current date>.
+    "duration": 5,                        // Number of days after 'fromDate'. Default: 14.
+    "classificationIds": [1,2,3,4],         // Type of events to include. Format: List of integers.
+    "organisationIds": [321,3,6,12,13],     // List of organisation id's to include. Format: List of integers.
+    "verbose": true                           // Verbose or not. Default: false.
 }

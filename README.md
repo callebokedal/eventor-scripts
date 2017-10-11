@@ -4,7 +4,9 @@ Här är ett skript för att extrahera ut data från Eventor. För att göra det
 
 ## Användning
 
-    $ groovy eventorData.groovy --keyfile <apikey.txt> --config <config.json>
+    $ groovy eventData.groovy --keyfile <apikey.txt> --config <config.json>
+
+    $ groovy eventData.groovy --keyfile apikey.txt --config config/events/allt.json
 
 ## API-fil
 
@@ -38,6 +40,31 @@ Dokumentation som jag hittat:
 
 Dokumentationen skiljer sig lite på dessa två sidor - så läs båda.
 
+## ClassificationIds
+
+URL i webbläsaren stämmer inte överens med benämningar i API-dokumentationen
+
+**Exempel:**
+
+Oinloggad + Göteborg:
+
+    https://eventor.orientering.se/Events?organisations=13&classifications=International,Championship,National,Regional,Local,Club&mode=List&startDate=2017-10-01&endDate=2017-10-31
+
+Inloggad + mitt och angränsande distrikt + inkludera närtävlingar + inkludera klubbtävlingar
+
+    https://eventor.orientering.se/Events?organisations=6,13,12,3&classifications=International,Championship,National,Regional,Local,Club&mode=List&startDate=2017-10-01&endDate=2017-10-31
+
+Men API-docs:
+    
+    classificationIds           
+        Comma-separated list of event classification IDs, where 
+        1=championship event, 
+        2=national event, 
+        3=state event, 
+        4=local event, 
+        5=club event. 
+        Omit to include all events.
+
 ## EventStatusId-värden
 
     1 Applied
@@ -62,6 +89,20 @@ Inloggad + mitt och angränsande distrikt + inkludera närtävlingar + inkludera
 
     https://eventor.orientering.se/Events?organisations=6,13,12,3&classifications=International,Championship,National,Regional,Local,Club&mode=List&startDate=2017-10-01&endDate=2017-10-31
 
+## Sjövallaspecifik dokumentation
 
+
+### Sjövalla FK
+
+- Sjövalla FK (id=321) har Göteborg OF (id=13) som ParentOrganisation - se OrganisationList / https://eventor.orienteering.org/api/organisations/iofxml
+
+### Närliggande organisationer
+
+Id-mappning närliggande organisationer
+
+- 3  = Västergötlands OF
+- 6  = Bohuslän-Dals OF
+- 12 = Hallands OF
+- 13 = Göteborg GOF
 
 
