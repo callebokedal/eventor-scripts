@@ -1,12 +1,26 @@
 # Eventor-skript
 
-Här är ett skript för att extrahera ut data från Eventor. För att göra det behöver man en API-nyckel.
+Här är ett skript för att extrahera ut data från Eventor. För att göra det behöver man en API-nyckel. 
 
 ## Användning
+Man kan köra skript direkt med hjälp av Groovy eller med hjälp av Docker (då t.ex. Java-version blir korrekt automatiskt).
+
+Börja med att hämta hem detta repo genom:
+
+    git clone https://github.com/callebokedal/eventor-scripts.git
+
+Sedan väljer du om du vill köra via groovy direkt eller indirekt med hjälp av Docker.
+
+### Via Groovy (direkt)
 
     $ groovy eventData.groovy --keyfile <apikey.txt> --config <config.json>
 
     $ groovy eventData.groovy --keyfile apikey.txt --config config/events/allt.json
+
+### Via Docker
+(Se installation nedan först).
+
+    docker run -t --rm -v $(pwd -P):/home/groovy eventor-app groovy eventData.groovy --keyfile apikey.txt --config config/events/allt.json
 
 ## API-fil
 
@@ -28,6 +42,30 @@ Exempel:
     }
 
 Genom att ange konfigurationsfil som parameter till skriptet, kan man enkelt skapa olika konfigurationsfiler för olika önskemål.
+
+# Förutsättning Groovy
+
+Skripten ska fungera för följande uppsättning av groovy:
+
+    groovy -v
+    Groovy Version: 2.4.11 JVM: 1.7.0_17 Vendor: Oracle Corporation OS: Mac OS X
+
+# Installation Docker
+Installera Docker enligt till exempel:
+
+  * https://store.docker.com/editions/community/docker-ce-server-ubuntu
+  * https://www.docker.com/docker-mac
+  * https://www.docker.com/docker-windows
+
+Via https://www.docker.com finns det fler alternativ.
+
+### Skapa image och volym för data
+När Docker är installerat på din dator fortsätter du med följande (en gång):
+
+    docker build -t eventor-app .
+    docker volume create eventor-data
+
+Klart! Nu kan du följa instruktionerna enligt "Via Docker" ovan.
 
 # Dokumentation
 
