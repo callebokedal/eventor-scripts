@@ -31,7 +31,7 @@ En obligatorisk textfil som innehåller aktuell API-nyckel.
 
 En obligatorisk textfil i json-format som innehåller den konfiguration du vill exekvera.
 
-Exempel:
+Exempel - [config/events/allt.json](config/events/allt.json):
 
     {
         "fromDate": "2017-10-10",  
