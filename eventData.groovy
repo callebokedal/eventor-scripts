@@ -85,9 +85,9 @@ if(cfg.output == HTML) {
 }
 
 // Include Google Maps link or not
-includeGoogleMapsLink = false
+includeGoogleMapLink = false
 if (cfg.googleMapLink) {
-    includeGoogleMapsLink = cfg.googleMapLink
+    includeGoogleMapLink = cfg.googleMapLink
 }
 
 // Include Eventor Message or not
@@ -175,17 +175,17 @@ int distance(float lat1, float lng1, float lat2, float lng2) {
     float dist = (float) (earthRadius * c);
     return Math.round(dist)
 }
-String decorateDistance(lat, lng, boolean googleMapsLink = false, String suffix = "") {
+String decorateDistance(lat, lng, boolean googleMapLink = false, String suffix = "") {
     dist = distance(lat, lng, latHome, lngHome)
-    if(googleMapsLink) {
+    if(googleMapLink) {
         // Ex: https://www.google.com/maps/?q=15.623037,18.388672
         return "<a href='https://www.google.com/maps/?q="+lat+","+lng+"'>" + dist + suffix + "</a>"
     }
     return dist + suffix
 }
 // Calculate distance (in km) to TC by lat/long
-String distanceTC(float lat1, float lng1, boolean googleMapsLink = false, String suffix = "") {
-    return decorateDistance(lat1, lng1, googleMapsLink, suffix)
+String distanceTC(float lat1, float lng1, boolean googleMapLink = false, String suffix = "") {
+    return decorateDistance(lat1, lng1, googleMapLink, suffix)
 }
 
 // Calculate distance (in km) to TC by position
@@ -204,7 +204,7 @@ int distanceTC(position) {
 }
 
 // Calculate distance (in km) to TC by position
-String distanceTCString(position, boolean googleMapsLink = false, String suffix = "") {
+String distanceTCString(position, boolean googleMapLink = false, String suffix = "") {
 
     // XmlParser style
     def x = position.@'x'[0]
@@ -213,7 +213,7 @@ String distanceTCString(position, boolean googleMapsLink = false, String suffix 
     if ( x && y ) {
         float lat = Float.parseFloat( y )
         float lng = Float.parseFloat( x )
-        return distanceTC(lat, lng, googleMapsLink, suffix)
+        return distanceTC(lat, lng, googleMapLink, suffix)
     }
     return "-"
 }
@@ -228,7 +228,7 @@ String getEventLink(name, eventId) {
 // Return string representing the event
 String eventInfo(event) {
     result = getEventLink(event.Name.text(), event.EventId.text()) + 
-        " (" + distanceTCString(event.EventRace.EventCenterPosition, includeGoogleMapsLink, " km") + "). " + 
+        " (" + distanceTCString(event.EventRace.EventCenterPosition, includeGoogleMapLink, " km") + "). " + 
         getPrettyStartDateInfo(event)
     if(includeEventorMessage) {
         return result + getEventorMessage(event)   
