@@ -42,6 +42,21 @@ Exempel - [config/events/allt.json](config/events/allt.json):
 
 Genom att ange konfigurationsfil som parameter till skriptet, kan man enkelt skapa olika konfigurationsfiler för olika önskemål.
 
+### Parametrar
+
+| Parameter | Example | Type | Description | 
+|---|---|---|---|
+| clubId | 321 | int | Id for organisation. 321 = Sjövalla FK |
+| fromDate | "2017-10-10" | String | Start date. Format: "yyyy-mm-dd". Default: <current date>. |
+| duration | 5 | int | Number of days after 'fromDate'. Default: 14. |
+| classificationIds | [1,2,3,4] | [int] | Type of events to include. Format: List of integers. |
+| organisationIds | [6,13,12,3] | [int] | List of organisation id's to include. Format: List of integers. Närliggande enligt test  |
+| maxDistance | 100 | int | Max distance (in km) between TC and Finnsjöråden |
+| output | "html" | String | Output: "text"|"html". Default: "text" |
+| googleMapLink | true | boolean | Link to Google maps or not. Default: false |
+| eventorMessage | false | boolean | Include Eventor Message - if exists. Default: false |
+| verbose | false | boolean | Verbose or not. Default: false. |
+
 # Förutsättning Groovy
 
 Skripten ska fungera för följande uppsättning av groovy:
