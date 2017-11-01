@@ -3,3 +3,5 @@ examples.txt
 soap/
 cache/
 examples/
+backup/
+testXML.groovy

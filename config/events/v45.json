@@ -1,0 +1,12 @@
+{
+    "clubId": 321,                          // Id for organisation. 321 = Sjövalla FK
+    //"fromDate": "2017-10-01",               // Start date. Format: "yyyy-mm-dd". Default: <current date>.
+    //"duration": 5,                        // Number of days after 'fromDate'. Default: 14.
+    "classificationIds": [1,2,3,4],         // Type of events to include. Format: List of integers.
+    "organisationIds": [6,13,12,3],     // List of organisation id's to include. Format: List of integers. Närliggande enligt test 
+    "maxDistance": 100,                 /* Max distance (in km) to TC */
+    "output": "html",                   /* Output: text|html. text is default */
+    "googleMapLink": true,              /* Link to Google maps or not*/
+    "eventorMessage": false,            /* Include Eventor Message - if exists */
+    "verbose": false                    /* Verbose or not. Default: false. */
+}

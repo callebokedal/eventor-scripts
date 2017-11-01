@@ -126,8 +126,32 @@ Inloggad + mitt och angränsande distrikt + inkludera närtävlingar + inkludera
 
     https://eventor.orientering.se/Events?organisations=6,13,12,3&classifications=International,Championship,National,Regional,Local,Club&mode=List&startDate=2017-10-01&endDate=2017-10-31
 
+## Anmälningsdatum
+
+Verkar som att första EntryBreak är "Ordinarie anmälningsdatum", och andra EntryBreak är "Efteranmälningsdata". Exempel:
+
+      <EntryBreak>
+         <ValidToDate>
+            <Date>2017-11-07</Date>
+            <Clock>23:59:59</Clock>
+         </ValidToDate>
+      </EntryBreak>
+      <EntryBreak>
+         <ValidFromDate>
+            <Date>2017-11-08</Date>
+            <Clock>00:00:00</Clock>
+         </ValidFromDate>
+         <ValidToDate>
+            <Date>2017-11-08</Date>
+            <Clock>23:59:59</Clock>
+         </ValidToDate>
+      </EntryBreak>
+
 ## Sjövallaspecifik dokumentation
 
+Koordinater för Finnsjögården som används för att beräkna avstånd till olika tävlingar:
+Lat:    57.640542
+Long:   12.135172
 
 ### Sjövalla FK
 

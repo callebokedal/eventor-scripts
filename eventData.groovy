@@ -5,6 +5,7 @@ import javax.net.ssl.X509TrustManager
 import java.security.SecureRandom
 import groovy.xml.*
 import groovy.json.*
+import java.text.SimpleDateFormat 
 
 /*
 
@@ -45,6 +46,8 @@ def commaSeparated(Object... args) {
 }
 assert "6,7,8" == commaSeparated(6,7,8)
 
+
+// Verbose or not - for debugging
 v = false
 def verbose(String str) {
     if(v) {
@@ -54,6 +57,16 @@ def verbose(String str) {
 
 // Definitions
 def endPoint = "https://eventor.orientering.se/api/events"
+// Long and lat for Finnsjögården
+latHome = 57.640542
+lngHome = 12.135172
+
+TEXT = "text"
+HTML = "html"
+
+Locale SWEDISH = new Locale('sv', 'SE')
+df = new SimpleDateFormat("EEE d MMM YYYY' klockan 'HH:mm", SWEDISH);
+dfshort = new SimpleDateFormat("EEE d MMM", SWEDISH);
 
 // Get data from config-file
 def jsonSlurper = new JsonSlurper(type: JsonParserType.LAX) // Use LAX to enable comments in config-json
@@ -65,8 +78,23 @@ if(cfg.verbose) {
     v = cfg.verbose
 }
 
-//println "clubId: " + clubId
-//println "ids: " + cfg.organisationIds.join(",") 
+// Output format
+output = TEXT
+if(cfg.output == HTML) {
+    output = HTML
+}
+
+// Include Google Maps link or not
+includeGoogleMapsLink = false
+if (cfg.googleMapLink) {
+    includeGoogleMapsLink = cfg.googleMapLink
+}
+
+// Include Eventor Message or not
+includeEventorMessage = false
+if (cfg.eventorMessage) {
+    includeEventorMessage = cfg.eventorMessage
+}
 
 //def clubId = 321 // 321 = Sjövalla FK
 //def localClubs = commaSeparated(clubId,3,6,12,13)
@@ -76,16 +104,8 @@ def localClubs = cfg.organisationIds.join(",")
 int daysAhead = 14 // Default value
 if (cfg.duration) {
     daysAhead = cfg.duration
-    //daysAhead = Integer.parseInt(cfg.duration)
 }
-/*if (options.d) {
-    daysAhead = Integer.parseInt(options.d)
-}*/
-//println "daysAhead: " + daysAhead // works
-
 verbose("daysAhead: " + daysAhead)
-
-//System.exit(0)
 
 def fromDate = new Date()
 if(cfg.fromDate) {
@@ -93,19 +113,8 @@ if(cfg.fromDate) {
 }
 
 def toDate = fromDate + daysAhead
-/*int currentDay = Calendar.instance.with {
-    time = current
-    get( Calendar.DAY_OF_WEEK )
-}*/
-//int firstDay = Calendar.instance.getFirstDayOfWeek()    // 1
-//def c = Calendar.instance.get(Calendar.DAY_OF_WEEK)     // 3 (onsdag)
 
 println "Search events between " + fromDate.format("YYYY-MM-dd") + " and " + toDate.format("YYYY-MM-dd")
-//println currentDay
-//println firstDay
-//println c
-
-//System.exit(0)
 
 // Eventor:ClassificationIds
 def cidChampionship = 1 // "Championship?"
@@ -141,6 +150,7 @@ def url = (endPoint + "?fromDate=" + fromDate.format("YYYY-MM-dd") + "&toDate=" 
 	//+ "&classificationIds=" + commaSeparated(cidClub, cidLocal)
 	// + "&includeAttributes=true"
 	//+ "&organisations=13").toURL()
+    + "&includeEntryBreaks=true"
 	+ "&organisationIds=" + localClubs).toURL()
 URLConnection connection = url.openConnection()
 connection.setRequestProperty("ApiKey", apiKey)
@@ -148,38 +158,134 @@ connection.setRequestProperty("ApiKey", apiKey)
 InputStream inputStream = connection.getInputStream()
 def res = inputStream.text
 
-//def data = new XmlParser().parseText(res)
-def data = new XmlSlurper().parseText(res)
-
-// Debug
-//println XmlUtil.serialize(data)
-
-//println res
-//def object = new JsonSlurper().parseText(inputStream.text)
-//def object = new JsonSlurper().parseText(res)
+def data = new XmlParser().parseText(res)
 connection.disconnect()
 
-verbose(XmlUtil.serialize(data))		// Ok
-//println XmlUtil.serialize(data[0])	// Not ok
+verbose(XmlUtil.serialize(data))		
 
-//println data
-//println data[0]
-//println XmlUtil.serialize(data)
-//println XmlUtil.serialize(data.EventList) // Not ok
-//println data.Event // Ok
-//println data.EventList // Inget
+// Calculate distance (in km) to TC
+String distance(float lat1, float lng1, float lat2, float lng2, boolean googleMapsLink = false, String suffix = "") {
+    double earthRadius = 6371; // kilometers
+    double dLat = Math.toRadians(lat2-lat1);
+    double dLng = Math.toRadians(lng2-lng1);
+    double a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+               Math.cos(Math.toRadians(lat1)) * Math.cos(Math.toRadians(lat2)) *
+               Math.sin(dLng/2) * Math.sin(dLng/2);
+    double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    float dist = (float) (earthRadius * c);
 
+    if(googleMapsLink) {
+        // Ex: https://www.google.com/maps/?q=15.623037,18.388672
+        return "<a href='https://www.google.com/maps/?q="+lat1+","+lng1+"'>" + Math.round(dist) + suffix + "</a>"
+    }
+    return Math.round(dist) + suffix
+}
+// Calculate distance (in km) to TC by lat/long
+String distanceTC(float lat1, float lng1, boolean googleMapsLink = false, String suffix = "") {
+    return distance(lat1, lng1, latHome, lngHome, googleMapsLink, suffix)
+}
+// Calculate distance (in km) to TC by position
+String distanceTC(position, boolean googleMapsLink = false, String suffix = "") {
 
-def getEventURL(eventId) {
+    // XmlParser style
+    def x = position.@'x'[0]
+    def y = position.@'y'[0]
+
+    if ( x && y ) {
+        float lat = Float.parseFloat( y )
+        float lng = Float.parseFloat( x )
+        return distanceTC(lat, lng, googleMapsLink, suffix)
+    }
+    return "-"
+}
+
+String getEventURL(eventId) {
     return "https://eventor.orientering.se/Events/Show/" + eventId
 }
-def getEventLink(name, eventId) {
+String getEventLink(name, eventId) {
     return "<a href='" + getEventURL(eventId) + "'>" + name + "</a>"
 }
 
-def printEvent(event) {
-    event.each {
-        println getEventLink(it.Name, it.EventId)
+// Return string representing the event
+String eventInfo(event) {
+    result = getEventLink(event.Name.text(), event.EventId.text()) + 
+        " (" + distanceTC(event.EventRace.EventCenterPosition, includeGoogleMapsLink, " km") + "). " + 
+        getPrettyStartDateInfo(event)
+    if(includeEventorMessage) {
+        return result + getEventorMessage(event)   
+    }
+    return result
+}
+
+String getEventorMessage(event) {
+    if(event.HashTableEntry) {
+        idx = event.HashTableEntry.findIndexOf { it.Key.text() == "Eventor_Message" }
+        if(idx != -1) {
+            return " " + event.HashTableEntry[idx].Value.text()
+        }
+    }
+    return ""
+}
+
+// Utility method
+String getPrettyStartDateInfo(event) {
+    if(event.StartDate) {
+        d = Date.parse("yyyy-MM-dd HH:mm:ss", event.StartDate.Date.text() + " " + event.StartDate.Clock.text())
+        return dfshort.format(d).capitalize() + ".";
+    }
+    return ""
+}
+
+String getPrettyEntryBreakInfo(event, pos) {
+    if(event.EntryBreak[pos]) {
+        d = Date.parse("yyyy-MM-dd HH:mm:ss", event.EntryBreak[pos].ValidToDate.Date.text() + " " + event.EntryBreak[pos].ValidToDate.Clock.text())
+        return df.format(d).capitalize() + ".";
+    }
+    return ""
+}
+
+// Ordinary event entry info
+// Ex: "Fr 3 nov 2017 klockan 18:00"
+// Note! Ordinary event break seems to be on pos 0, se README.md
+String eventEntryInfo(event, String prefix = "") {
+    return prefix + getPrettyEntryBreakInfo(event, 0)
+}
+
+// Ordinary event entry info
+// Ex: "Fr 3 nov 2017 klockan 18:00"
+// Note! Late event break seems to be on pos 1, se README.md
+String eventLateEntryInfo(event, String prefix = "") {
+    return prefix + getPrettyEntryBreakInfo(event, 1)
+}
+
+// Filter by distance - if specified
+if(cfg.distance) {
+    
+}
+
+def outputHTMLRow(c1, c2, c3) {
+    return "<tr><td>" + c1 + "</td><td>" + c2 + "</td><td>" + c3 + "</td></tr>"
+}
+
+// Print result
+def printEvent(eventList) {
+    if(output == HTML) {
+        println "<table class='eventData'>"
+        println "<tr><th>Tävling</th><th>Ordinarie anmälan senast</th><th>Efteranmälan senast</th></tr>"
+    }
+    eventList.each {
+        /*it.each {
+            println it
+        }*/
+        if(output == HTML) {
+            println outputHTMLRow(eventInfo(it), eventEntryInfo(it), eventLateEntryInfo(it))
+        } else {
+            println eventInfo(it) + " " + eventEntryInfo(it, "Ordinarie anmälan: ") + " " + eventLateEntryInfo(it, "Efteranmälan: ")
+        }
+        //println "---"
+    }
+    if(output == HTML) {
+        println "</table>"
     }
 }
 printEvent(data.Event)
@@ -188,15 +294,3 @@ printEvent(data.Event)
 println url
 
 System.exit(0)
-
-/*
-def siteMapLocation = "https://www.telia.se/sitemap.xml".toURL().text
-
-def urlset = new XmlSlurper().parseText(siteMapLocation)
-urlset.url.each{
-    println it.loc
-    println it.lastmod
-    println it.priority
-    println "^^^^^^^^"
-}
-*/
