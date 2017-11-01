@@ -9,7 +9,7 @@ Börja med att hämta hem detta repo genom (kräver Git installerat: https://git
     # Första gången:
     git clone https://github.com/callebokedal/eventor-scripts.git
 
-    # För att hämta eventuell uppateringar i koden
+    # För att senare hämta eventuella uppateringar i koden
     git pull
 
 Sedan väljer du om du vill köra via groovy direkt eller indirekt med hjälp av Docker.
