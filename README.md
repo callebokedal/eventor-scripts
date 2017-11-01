@@ -6,7 +6,11 @@ Här är ett skript för att extrahera ut data från Eventor. För att göra det
 Man kan köra skript direkt med hjälp av Groovy eller med hjälp av Docker (då t.ex. Java-version blir korrekt automatiskt).
 Börja med att hämta hem detta repo genom (kräver Git installerat: https://git-scm.com/downloads):
 
+    # Första gången:
     git clone https://github.com/callebokedal/eventor-scripts.git
+
+    # För att hämta eventuell uppateringar i koden
+    git pull
 
 Sedan väljer du om du vill köra via groovy direkt eller indirekt med hjälp av Docker.
 
