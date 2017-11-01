@@ -114,7 +114,7 @@ if(cfg.fromDate) {
 
 def toDate = fromDate + daysAhead
 
-println "Search events between " + fromDate.format("YYYY-MM-dd") + " and " + toDate.format("YYYY-MM-dd")
+verbose("Search events between " + fromDate.format("YYYY-MM-dd") + " and " + toDate.format("YYYY-MM-dd"))
 
 // Eventor:ClassificationIds
 def cidChampionship = 1 // "Championship?"
@@ -164,7 +164,7 @@ connection.disconnect()
 verbose(XmlUtil.serialize(data))		
 
 // Calculate distance (in km) to TC
-String distance(float lat1, float lng1, float lat2, float lng2, boolean googleMapsLink = false, String suffix = "") {
+int distance(float lat1, float lng1, float lat2, float lng2) {
     double earthRadius = 6371; // kilometers
     double dLat = Math.toRadians(lat2-lat1);
     double dLng = Math.toRadians(lng2-lng1);
@@ -173,19 +173,38 @@ String distance(float lat1, float lng1, float lat2, float lng2, boolean googleMa
                Math.sin(dLng/2) * Math.sin(dLng/2);
     double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
     float dist = (float) (earthRadius * c);
-
+    return Math.round(dist)
+}
+String decorateDistance(lat, lng, boolean googleMapsLink = false, String suffix = "") {
+    dist = distance(lat, lng, latHome, lngHome)
     if(googleMapsLink) {
         // Ex: https://www.google.com/maps/?q=15.623037,18.388672
-        return "<a href='https://www.google.com/maps/?q="+lat1+","+lng1+"'>" + Math.round(dist) + suffix + "</a>"
+        return "<a href='https://www.google.com/maps/?q="+lat+","+lng+"'>" + dist + suffix + "</a>"
     }
-    return Math.round(dist) + suffix
+    return dist + suffix
 }
 // Calculate distance (in km) to TC by lat/long
 String distanceTC(float lat1, float lng1, boolean googleMapsLink = false, String suffix = "") {
-    return distance(lat1, lng1, latHome, lngHome, googleMapsLink, suffix)
+    return decorateDistance(lat1, lng1, googleMapsLink, suffix)
 }
+
 // Calculate distance (in km) to TC by position
-String distanceTC(position, boolean googleMapsLink = false, String suffix = "") {
+int distanceTC(position) {
+    // XmlParser style
+    def x = position.@'x'[0]
+    def y = position.@'y'[0]
+
+    if ( x && y ) {
+        float lat = Float.parseFloat( y )
+        float lng = Float.parseFloat( x )
+        return distance(lat, lng, latHome, lngHome)
+    }
+    // Default, distance unknown
+    return 0
+}
+
+// Calculate distance (in km) to TC by position
+String distanceTCString(position, boolean googleMapsLink = false, String suffix = "") {
 
     // XmlParser style
     def x = position.@'x'[0]
@@ -209,7 +228,7 @@ String getEventLink(name, eventId) {
 // Return string representing the event
 String eventInfo(event) {
     result = getEventLink(event.Name.text(), event.EventId.text()) + 
-        " (" + distanceTC(event.EventRace.EventCenterPosition, includeGoogleMapsLink, " km") + "). " + 
+        " (" + distanceTCString(event.EventRace.EventCenterPosition, includeGoogleMapsLink, " km") + "). " + 
         getPrettyStartDateInfo(event)
     if(includeEventorMessage) {
         return result + getEventorMessage(event)   
@@ -258,10 +277,6 @@ String eventLateEntryInfo(event, String prefix = "") {
     return prefix + getPrettyEntryBreakInfo(event, 1)
 }
 
-// Filter by distance - if specified
-if(cfg.distance) {
-    
-}
 
 def outputHTMLRow(c1, c2, c3) {
     return "<tr><td>" + c1 + "</td><td>" + c2 + "</td><td>" + c3 + "</td></tr>"
@@ -288,9 +303,19 @@ def printEvent(eventList) {
         println "</table>"
     }
 }
-printEvent(data.Event)
 
+def eventList = data.Event
+if(cfg.maxDistance) {
+    // Filter by distance - if specified
+    printEvent(eventList.findAll { event ->
+        dist = distanceTC(event.EventRace.EventCenterPosition)
+        dist <= cfg.maxDistance
+    })   
+} else {
+    // Print all events
+    printEvent(eventList)    
+}
 
-println url
+verbose(url.toString())
 
 System.exit(0)
