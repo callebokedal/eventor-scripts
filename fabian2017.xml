@@ -1,0 +1,6318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResultListList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>17642</EventId>
+			<Name>OK Landehof nattcup E6</Name>
+			<EventClassificationId>4</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-01-26</Date>
+				<Clock>18:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-01-26</Date>
+				<Clock>18:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>230</OrganisationId>
+					<Name>OK Landehof</Name>
+					<ShortName>OK Landehof</ShortName>
+					<MediaName>Orienteringsklubben Landehof</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-12-11</Date>
+						<Clock>22:01:59</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Night">
+				<EventRaceId>18552</EventRaceId>
+				<EventId>17642</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-01-26</Date>
+					<Clock>18:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.22581" y="57.6946"/>
+			</EventRace>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-01-26</Date>
+				<Clock>19:58:16</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>101705</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="6" numberOfStarts="5">
+			<EventClass allowEntryInAdvance="Y" numberInTeam="1" numberOfEntries="6" numberOfLegs="1" sex="B" teamEntry="N" timePresentation="Y">
+				<EventClassId>272559</EventClassId>
+				<Name>Kort</Name>
+				<ClassShortName>Kort</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>19</ClassTypeId>
+				<ExternalId>10</ExternalId>
+				<ClassRaceInfo noOfEntries="6" noOfStarts="5">
+					<EventRaceId>18552</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>2975185</ResultId>
+					<CCardId>8050909</CCardId>
+					<StartTime>
+						<Date>2017-01-26</Date>
+						<Clock>18:15:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-01-26</Date>
+						<Clock>18:32:02</Clock>
+					</FinishTime>
+					<Time>17:02</Time>
+					<TimeDiff>0:02</TimeDiff>
+					<ResultPosition>2</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-01-26</Date>
+						<Clock>19:58:14</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15524</EventId>
+			<Name>Rigor/Uven-dubbeln</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-03-25</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-03-25</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>296</OrganisationId>
+					<Name>IF Rigor</Name>
+					<ShortName>IF Rigor</ShortName>
+					<MediaName>Idrottsföreningen Rigor</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-12-05</Date>
+						<Clock>10:42:20</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>16373</EventRaceId>
+				<EventId>15524</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-03-25</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.19986" y="57.59837"/>
+			</EventRace>
+			<WebURL>http://ifrigor.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-04-16</Date>
+				<Clock>14:02:01</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>19174</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="39" numberOfStarts="33">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="39" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>267332</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="39" noOfStarts="33">
+					<EventRaceId>16373</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>2999767</ResultId>
+					<StartTime>
+						<Date>2017-03-25</Date>
+						<Clock>11:15:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-03-25</Date>
+						<Clock>11:36:21</Clock>
+					</FinishTime>
+					<Time>21:21</Time>
+					<TimeDiff>3:07</TimeDiff>
+					<ResultPosition>2</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-03-25</Date>
+						<Clock>14:51:28</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>14634</EventId>
+			<Name>Rigor/Uven-dubbeln</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-03-26</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-03-26</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>423</OrganisationId>
+					<Name>IK Uven</Name>
+					<ShortName>IK Uven</ShortName>
+					<MediaName>Idrottsklubben Uven</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>15448</EventRaceId>
+				<EventId>14634</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-03-26</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.19356" y="57.60073"/>
+			</EventRace>
+			<WebURL>http://www.ikuven.se</WebURL>
+			<Comment>Får inte skriva så långt som jag vill, följ länken: https://www.dropbox.com/s/kp3nengkdjb7jf2/T%C3%A4vlingsans%C3%B6kan_2017.txt?dl=0</Comment>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-04-13</Date>
+				<Clock>21:41:31</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>30708</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="30" numberOfStarts="29">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="30" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>267267</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="30" noOfStarts="29">
+					<EventRaceId>15448</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3024395</ResultId>
+					<StartTime>
+						<Date>2017-03-26</Date>
+						<Clock>10:50:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-03-26</Date>
+						<Clock>11:10:58</Clock>
+					</FinishTime>
+					<Time>20:58</Time>
+					<TimeDiff>0:54</TimeDiff>
+					<ResultPosition>2</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-04-13</Date>
+						<Clock>21:41:21</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList status="snapshot">
+		<Event eventForm="IndSingleDay">
+			<EventId>14753</EventId>
+			<Name>DM, natt, Göteborg</Name>
+			<EventClassificationId>1</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-03-31</Date>
+				<Clock>20:30:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-03-31</Date>
+				<Clock>23:59:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>582</OrganisationId>
+					<Name>Göteborg-Majorna OK</Name>
+					<ShortName>Göteborg-Majorna OK</ShortName>
+					<MediaName>Göteborg-Majorna OK</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-02-14</Date>
+						<Clock>06:45:46</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Night">
+				<EventRaceId>15567</EventRaceId>
+				<EventId>14753</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-03-31</Date>
+					<Clock>20:30:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.06519" y="57.80121"/>
+			</EventRace>
+			<WebURL>http://www.gmok.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-04-02</Date>
+				<Clock>18:56:40</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>7753</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="10" numberOfStarts="8">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="10" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>268919</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="10" noOfStarts="8">
+					<EventRaceId>15567</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3008935</ResultId>
+					<StartTime>
+						<Date>2017-03-31</Date>
+						<Clock>20:54:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-03-31</Date>
+						<Clock>21:29:04</Clock>
+					</FinishTime>
+					<Time>35:04</Time>
+					<TimeDiff>5:56</TimeDiff>
+					<ResultPosition>2</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-04-02</Date>
+						<Clock>18:56:33</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>14581</EventId>
+			<Name>Herkules Skogsdåd</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-04-01</Date>
+				<Clock>11:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-04-01</Date>
+				<Clock>11:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>145</OrganisationId>
+					<Name>FK Herkules</Name>
+					<ShortName>FK Herkules</ShortName>
+					<MediaName>Frisksportklubben Herkules</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-03-21</Date>
+						<Clock>19:16:09</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>15395</EventRaceId>
+				<EventId>14581</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-04-01</Date>
+					<Clock>11:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.04608" y="57.66597"/>
+			</EventRace>
+			<WebURL>http://www.fkherkules.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-04-09</Date>
+				<Clock>13:46:36</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>12713</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="25" numberOfStarts="24">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="25" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>275416</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="25" noOfStarts="24">
+					<EventRaceId>15395</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3010114</ResultId>
+					<StartTime>
+						<Date>2017-04-01</Date>
+						<Clock>11:49:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-04-01</Date>
+						<Clock>12:13:51</Clock>
+					</FinishTime>
+					<Time>24:51</Time>
+					<TimeDiff>2:14</TimeDiff>
+					<ResultPosition>4</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-04-04</Date>
+						<Clock>19:41:01</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="RelaySingleDay">
+			<EventId>14813</EventId>
+			<Name>Västkuststafetten</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-04-02</Date>
+				<Clock>10:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-04-02</Date>
+				<Clock>10:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>2919</OrganisationId>
+					<Name>IFK Göteborg Orientering</Name>
+					<ShortName>IFK Göteborg Orientering</ShortName>
+					<MediaName>IFK Göteborg Orientering</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-07-26</Date>
+						<Clock>08:50:22</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>15633</EventRaceId>
+				<EventId>14813</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-04-02</Date>
+					<Clock>10:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.05664" y="57.74996"/>
+			</EventRace>
+			<ClassTypeComment>Endast HD21, HD16 och HD14 + ÖM</ClassTypeComment>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-04-05</Date>
+				<Clock>12:56:58</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>3725</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="19" numberOfStarts="18">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="19" numberOfLegs="3" sex="B" teamEntry="Y" timePresentation="Y">
+				<EventClassId>266633</EventClassId>
+				<Name>Ungdomar 12</Name>
+				<ClassShortName>U12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<ExternalId>4</ExternalId>
+				<ClassRaceInfo noOfEntries="18" noOfStarts="18">
+					<EventRaceId>15633</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<TeamResult>
+				<TeamName>Sjövalla FK 1</TeamName>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<BibNumber>185</BibNumber>
+				<StartTime>
+					<Date>2017-04-02</Date>
+					<Clock>11:01:10</Clock>
+				</StartTime>
+				<FinishTime>
+					<Date>2017-04-02</Date>
+					<Clock>11:27:07</Clock>
+				</FinishTime>
+				<Time>25:57</Time>
+				<ResultPosition>1</ResultPosition>
+				<TeamStatus value="OK"/>
+				<TeamMemberResult>
+					<Person sex="M">
+						<PersonName>
+							<Family>Alinder</Family>
+							<Given sequence="1">Fabian</Given>
+						</PersonName>
+						<PersonId>74056</PersonId>
+						<BirthDate>
+							<Date>2005-01-01</Date>
+						</BirthDate>
+						<Nationality>
+							<Country>
+								<CountryId value="752"/>
+								<Alpha3 value="SWE"/>
+								<Name languageId="sv">Sverige</Name>
+								<Name languageId="en">Sweden</Name>
+							</Country>
+						</Nationality>
+					</Person>
+					<Organisation>
+						<OrganisationId>321</OrganisationId>
+						<Name>Sjövalla FK</Name>
+						<ShortName>Sjövalla FK</ShortName>
+						<OrganisationTypeId>5</OrganisationTypeId>
+					</Organisation>
+					<Leg>3</Leg>
+					<LegOrder>1</LegOrder>
+					<BibNumber>185</BibNumber>
+					<StartTime>
+						<Date>2017-04-02</Date>
+						<Clock>11:01:10</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-04-02</Date>
+						<Clock>11:27:07</Clock>
+					</FinishTime>
+					<Time>25:57</Time>
+					<TimeBehind type="Leg">725</TimeBehind>
+					<Position type="Leg">8</Position>
+					<CompetitorStatus value="OK"/>
+					<OverallResult>
+						<Time>1:02:07</Time>
+						<ResultPosition>1</ResultPosition>
+						<TeamStatus value="OK"/>
+					</OverallResult>
+				</TeamMemberResult>
+			</TeamResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15445</EventId>
+			<Name>Göteborgsdubbeln, lång</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-04-08</Date>
+				<Clock>10:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-04-08</Date>
+				<Clock>10:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>238</OrganisationId>
+					<Name>Lerums SOK</Name>
+					<ShortName>Lerums SOK</ShortName>
+					<MediaName>Lerums SOK</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>16291</EventRaceId>
+				<EventId>15445</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-04-08</Date>
+					<Clock>10:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.35845" y="57.81458"/>
+			</EventRace>
+			<WebURL>http://www.lsok.nu</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-04-08</Date>
+				<Clock>20:17:12</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>23548</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="24" numberOfStarts="22">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="24" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>273406</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="24" noOfStarts="22">
+					<EventRaceId>16291</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3015203</ResultId>
+					<StartTime>
+						<Date>2017-04-08</Date>
+						<Clock>10:51:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-04-08</Date>
+						<Clock>11:20:22</Clock>
+					</FinishTime>
+					<Time>29:22</Time>
+					<TimeDiff>5:22</TimeDiff>
+					<ResultPosition>5</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-04-08</Date>
+						<Clock>20:17:05</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15446</EventId>
+			<Name>Göteborgsdubbeln, medel</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-04-09</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-04-09</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<MediaName>Sjövalla Frisksportklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-03-06</Date>
+						<Clock>21:55:56</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>16292</EventRaceId>
+				<EventId>15446</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-04-09</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.35836" y="57.81464"/>
+			</EventRace>
+			<WebURL>http://www.sjovalla.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-04-17</Date>
+				<Clock>11:56:36</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>8164</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="31">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="31" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>274839</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ExternalId>0</ExternalId>
+				<ClassRaceInfo noOfEntries="31" noOfStarts="25">
+					<EventRaceId>16292</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3032344</ResultId>
+					<StartTime>
+						<Date>2017-04-09</Date>
+						<Clock>11:20:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-04-09</Date>
+						<Clock>11:44:10</Clock>
+					</FinishTime>
+					<Time>24:10</Time>
+					<TimeDiff>4:45</TimeDiff>
+					<ResultPosition>8</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-04-17</Date>
+						<Clock>11:56:28</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15220</EventId>
+			<Name>Snötrampen + DM, lång, Halland</Name>
+			<EventClassificationId>1</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-04-17</Date>
+				<Clock>10:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-04-17</Date>
+				<Clock>15:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>137</OrganisationId>
+					<Name>Fjärås AIK</Name>
+					<ShortName>Fjärås AIK</ShortName>
+					<MediaName>Fjärås Allmänna Idrottsklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>254</OrganisationId>
+					<Name>OK Löftan</Name>
+					<ShortName>OK Löftan</ShortName>
+					<MediaName>Orienteringsklubben Löftan</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>16059</EventRaceId>
+				<EventId>15220</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-04-17</Date>
+					<Clock>10:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.22809" y="57.49557"/>
+			</EventRace>
+			<WebURL>http://www.fjarasaik.se/</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-04-21</Date>
+				<Clock>19:42:39</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>4297</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="33" numberOfStarts="30">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="33" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>269797</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="33" noOfStarts="30">
+					<EventRaceId>16059</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3042560</ResultId>
+					<StartTime>
+						<Date>2017-04-17</Date>
+						<Clock>10:56:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-04-17</Date>
+						<Clock>11:18:06</Clock>
+					</FinishTime>
+					<Time>22:06</Time>
+					<TimeDiff>1:36</TimeDiff>
+					<ResultPosition>3</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-04-21</Date>
+						<Clock>19:42:30</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15217</EventId>
+			<Name>Stenungsunds OK</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-04-22</Date>
+				<Clock>11:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-04-22</Date>
+				<Clock>11:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>361</OrganisationId>
+					<Name>Stenungsunds OK</Name>
+					<ShortName>Stenungsunds OK</ShortName>
+					<MediaName>Stenungsunds Orienteringsklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-03</Date>
+						<Clock>23:17:59</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>16056</EventRaceId>
+				<EventId>15217</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-04-22</Date>
+					<Clock>11:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="11.87377" y="58.004"/>
+			</EventRace>
+			<WebURL>http://stenungsundsok.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-04-24</Date>
+				<Clock>00:33:19</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>121051</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="16" numberOfStarts="16">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="16" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>279192</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="16" noOfStarts="16">
+					<EventRaceId>16056</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3052423</ResultId>
+					<CCardId>8050909</CCardId>
+					<StartTime>
+						<Date>2017-04-22</Date>
+						<Clock>11:33:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-04-22</Date>
+						<Clock>11:53:12</Clock>
+					</FinishTime>
+					<Time>20:12</Time>
+					<TimeDiff>0:06</TimeDiff>
+					<ResultPosition>2</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-04-24</Date>
+						<Clock>00:33:15</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>14749</EventId>
+			<Name>Omega Kort</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-04-23</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-04-23</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>287</OrganisationId>
+					<Name>IK Omega</Name>
+					<ShortName>IK Omega</ShortName>
+					<MediaName>Idrottsklubben Omega</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-01-25</Date>
+						<Clock>13:51:17</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>15563</EventRaceId>
+				<EventId>14749</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-04-23</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.65699" y="57.68288"/>
+			</EventRace>
+			<WebURL>http://www.omegaorientering.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-05-02</Date>
+				<Clock>12:48:06</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>34445</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="15" numberOfStarts="14">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="15" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>261075</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="15" noOfStarts="14">
+					<EventRaceId>15563</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3050305</ResultId>
+					<StartTime>
+						<Date>2017-04-23</Date>
+						<Clock>10:12:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-04-23</Date>
+						<Clock>10:33:27</Clock>
+					</FinishTime>
+					<Time>21:27</Time>
+					<TimeDiff>3:41</TimeDiff>
+					<ResultPosition>3</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-04-23</Date>
+						<Clock>13:52:07</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="RelaySingleDay">
+			<EventId>14802</EventId>
+			<Name>Tiomila i Göteborg-Partille</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-04-29</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-04-30</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>13</OrganisationId>
+					<Name>Göteborgs Orienteringsförbund</Name>
+					<ShortName>Göteborgs Orienteringsförbund</ShortName>
+					<MediaName>Göteborgs Orienteringsförbund</MediaName>
+					<OrganisationTypeId>2</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-09-11</Date>
+						<Clock>11:08:43</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>18</OrganisationId>
+					<Name>Stockholms Orienteringsförbund</Name>
+					<ShortName>Stockholms Orienteringsförbund</ShortName>
+					<MediaName>Stockholms Orienteringsförbund</MediaName>
+					<OrganisationTypeId>2</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="DayAndNight">
+				<EventRaceId>15622</EventRaceId>
+				<EventId>14802</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-04-29</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.14418" y="57.7486"/>
+			</EventRace>
+			<WebURL>http://www.10mila.se/</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-05-08</Date>
+				<Clock>07:04:11</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>25610</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="315" numberOfStarts="305">
+			<EventClass allowEntryInAdvance="Y" highAge="16" numberInTeam="1" numberOfEntries="315" numberOfLegs="4" sex="B" teamEntry="Y" timePresentation="Y">
+				<EventClassId>269170</EventClassId>
+				<Name>UNGDOMSKAVLEN</Name>
+				<ClassShortName>UNGDOMSKAVLEN</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<ExternalId>1</ExternalId>
+				<ClassRaceInfo noOfEntries="502" noOfStarts="473">
+					<EventRaceId>15622</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<TeamResult>
+				<TeamName>Sjövalla FK 1</TeamName>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<BibNumber>1157</BibNumber>
+				<StartTime>
+					<Date>2017-04-29</Date>
+					<Clock>11:00:39</Clock>
+				</StartTime>
+				<FinishTime>
+					<Date>2017-04-29</Date>
+					<Clock>11:20:23</Clock>
+				</FinishTime>
+				<Time>19:44</Time>
+				<ResultPosition>107</ResultPosition>
+				<TeamStatus value="OK"/>
+				<TeamMemberResult>
+					<Person sex="M">
+						<PersonName>
+							<Family>Alinder</Family>
+							<Given sequence="1">Fabian</Given>
+						</PersonName>
+						<PersonId>74056</PersonId>
+						<BirthDate>
+							<Date>2005-01-01</Date>
+						</BirthDate>
+						<Nationality>
+							<Country>
+								<CountryId value="752"/>
+								<Alpha3 value="SWE"/>
+								<Name languageId="sv">Sverige</Name>
+								<Name languageId="en">Sweden</Name>
+							</Country>
+						</Nationality>
+					</Person>
+					<Organisation>
+						<OrganisationId>321</OrganisationId>
+						<Name>Sjövalla FK</Name>
+						<ShortName>Sjövalla FK</ShortName>
+						<OrganisationTypeId>5</OrganisationTypeId>
+					</Organisation>
+					<Leg>2</Leg>
+					<LegOrder>1</LegOrder>
+					<BibNumber>1157</BibNumber>
+					<StartTime>
+						<Date>2017-04-29</Date>
+						<Clock>11:00:39</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-04-29</Date>
+						<Clock>11:20:23</Clock>
+					</FinishTime>
+					<Time>19:44</Time>
+					<TimeBehind type="Leg">154</TimeBehind>
+					<Position type="Leg">25</Position>
+					<CompetitorStatus value="OK"/>
+					<OverallResult>
+						<Time>50:23</Time>
+						<ResultPosition>107</ResultPosition>
+						<TeamStatus value="OK"/>
+					</OverallResult>
+				</TeamMemberResult>
+			</TeamResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15247</EventId>
+			<Name>Orintos vårtävling</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-05-01</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-05-01</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>530</OrganisationId>
+					<Name>OK Orinto</Name>
+					<ShortName>OK Orinto</ShortName>
+					<MediaName>Orienteringsklubben Orinto</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-03-19</Date>
+						<Clock>21:56:56</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>16087</EventRaceId>
+				<EventId>15247</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-05-01</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.58215" y="57.71174"/>
+			</EventRace>
+			<WebURL>http://www.orinto.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-05-07</Date>
+				<Clock>18:17:31</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>34105</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="30" numberOfStarts="29">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="30" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>281477</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="30" noOfStarts="29">
+					<EventRaceId>16087</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3086582</ResultId>
+					<CCardId>8050909</CCardId>
+					<StartTime>
+						<Date>2017-05-01</Date>
+						<Clock>11:06:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-05-01</Date>
+						<Clock>11:30:52</Clock>
+					</FinishTime>
+					<Time>24:52</Time>
+					<TimeDiff>4:55</TimeDiff>
+					<ResultPosition>8</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-05-07</Date>
+						<Clock>18:17:22</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15673</EventId>
+			<Name>Vårserien Etapp 1</Name>
+			<EventClassificationId>4</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-05-06</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-05-06</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>13</OrganisationId>
+					<Name>Göteborgs Orienteringsförbund</Name>
+					<ShortName>Göteborgs Orienteringsförbund</ShortName>
+					<MediaName>Göteborgs Orienteringsförbund</MediaName>
+					<OrganisationTypeId>2</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-09-11</Date>
+						<Clock>11:08:43</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>29</OrganisationId>
+					<Name>OK Alehof</Name>
+					<ShortName>OK Alehof</ShortName>
+					<MediaName>Orienteringsklubben Alehof</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>16529</EventRaceId>
+				<EventId>15673</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-05-06</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.08054" y="57.87241"/>
+			</EventRace>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-05-07</Date>
+				<Clock>16:20:17</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>15960</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="41" numberOfStarts="39">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="41" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>284659</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="41" noOfStarts="39">
+					<EventRaceId>16529</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3085857</ResultId>
+					<StartTime>
+						<Date>2017-05-06</Date>
+						<Clock>11:24:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-05-06</Date>
+						<Clock>11:57:59</Clock>
+					</FinishTime>
+					<Time>33:59</Time>
+					<TimeDiff>8:56</TimeDiff>
+					<ResultPosition>6</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-05-07</Date>
+						<Clock>16:20:14</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15405</EventId>
+			<Name>Ymers jubileumstävling</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-05-07</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-05-07</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>454</OrganisationId>
+					<Name>IK Ymer</Name>
+					<ShortName>IK Ymer</ShortName>
+					<MediaName>Idrottsklubben Ymer</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-12-05</Date>
+						<Clock>13:43:35</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>16249</EventRaceId>
+				<EventId>15405</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-05-07</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.95873" y="57.75019"/>
+			</EventRace>
+			<WebURL>http://www.ikymer.se/ol/ </WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-05-09</Date>
+				<Clock>22:39:17</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>60491</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="25" numberOfStarts="24">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="25" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>277424</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="25" noOfStarts="24">
+					<EventRaceId>16249</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3095421</ResultId>
+					<StartTime>
+						<Date>2017-05-07</Date>
+						<Clock>10:01:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-05-07</Date>
+						<Clock>10:20:31</Clock>
+					</FinishTime>
+					<Time>19:31</Time>
+					<TimeDiff>0:35</TimeDiff>
+					<ResultPosition>3</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-05-09</Date>
+						<Clock>22:39:11</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>18332</EventId>
+			<Name>GMOK sprintcup etapp 1</Name>
+			<EventClassificationId>4</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-05-10</Date>
+				<Clock>18:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-05-10</Date>
+				<Clock>18:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>582</OrganisationId>
+					<Name>Göteborg-Majorna OK</Name>
+					<ShortName>Göteborg-Majorna OK</ShortName>
+					<MediaName>Göteborg-Majorna OK</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-02-14</Date>
+						<Clock>06:45:46</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Sprint" raceLightCondition="Day">
+				<EventRaceId>19261</EventRaceId>
+				<EventId>18332</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-05-10</Date>
+					<Clock>18:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="11.96096" y="57.69368"/>
+			</EventRace>
+			<WebURL>http://www.gmok.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-05-17</Date>
+				<Clock>21:29:54</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>6717</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="22" numberOfStarts="20">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="22" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>282144</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="22" noOfStarts="20">
+					<EventRaceId>19261</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3110336</ResultId>
+					<StartTime>
+						<Date>2017-05-10</Date>
+						<Clock>18:59:01</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-05-10</Date>
+						<Clock>19:09:23</Clock>
+					</FinishTime>
+					<Time>10:22</Time>
+					<TimeDiff>0:19</TimeDiff>
+					<ResultPosition>2</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-05-17</Date>
+						<Clock>21:29:51</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>18333</EventId>
+			<Name>GMOK sprintcup etapp 2</Name>
+			<EventClassificationId>4</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-05-17</Date>
+				<Clock>18:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-05-17</Date>
+				<Clock>18:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>582</OrganisationId>
+					<Name>Göteborg-Majorna OK</Name>
+					<ShortName>Göteborg-Majorna OK</ShortName>
+					<MediaName>Göteborg-Majorna OK</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-02-14</Date>
+						<Clock>06:45:46</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Sprint" raceLightCondition="Day">
+				<EventRaceId>19262</EventRaceId>
+				<EventId>18333</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-05-17</Date>
+					<Clock>18:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="11.89615" y="57.70245"/>
+			</EventRace>
+			<WebURL>http://www.gmok.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-05-17</Date>
+				<Clock>21:23:40</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>6717</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="19" numberOfStarts="17">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="19" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>282154</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="19" noOfStarts="17">
+					<EventRaceId>19262</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3110117</ResultId>
+					<StartTime>
+						<Date>2017-05-17</Date>
+						<Clock>18:57:02</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-05-17</Date>
+						<Clock>19:05:44</Clock>
+					</FinishTime>
+					<Time>8:42</Time>
+					<TimeDiff>0:00</TimeDiff>
+					<ResultPosition>1</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-05-17</Date>
+						<Clock>21:23:37</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15670</EventId>
+			<Name>Vårserien Etapp 3</Name>
+			<EventClassificationId>4</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-05-25</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-05-25</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>13</OrganisationId>
+					<Name>Göteborgs Orienteringsförbund</Name>
+					<ShortName>Göteborgs Orienteringsförbund</ShortName>
+					<MediaName>Göteborgs Orienteringsförbund</MediaName>
+					<OrganisationTypeId>2</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-09-11</Date>
+						<Clock>11:08:43</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<MediaName>Sjövalla Frisksportklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-03-06</Date>
+						<Clock>21:55:56</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>16526</EventRaceId>
+				<EventId>15670</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-05-25</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.12346" y="57.66263"/>
+			</EventRace>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-05-26</Date>
+				<Clock>10:07:04</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>20082</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="38" numberOfStarts="34">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="38" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>283284</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="38" noOfStarts="34">
+					<EventRaceId>16526</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3131562</ResultId>
+					<StartTime>
+						<Date>2017-05-25</Date>
+						<Clock>11:55:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-05-25</Date>
+						<Clock>12:15:30</Clock>
+					</FinishTime>
+					<Time>20:30</Time>
+					<TimeDiff>0:00</TimeDiff>
+					<ResultPosition>1</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-05-26</Date>
+						<Clock>10:07:00</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15672</EventId>
+			<Name>Vårserien Etapp 4</Name>
+			<EventClassificationId>4</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-06-03</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-06-03</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>13</OrganisationId>
+					<Name>Göteborgs Orienteringsförbund</Name>
+					<ShortName>Göteborgs Orienteringsförbund</ShortName>
+					<MediaName>Göteborgs Orienteringsförbund</MediaName>
+					<OrganisationTypeId>2</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-09-11</Date>
+						<Clock>11:08:43</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>110</OrganisationId>
+					<Name>Göteborgs SK</Name>
+					<ShortName>Göteborgs SK</ShortName>
+					<MediaName>Göteborgs Skidklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>203</OrganisationId>
+					<Name>IF Marin Väst</Name>
+					<ShortName>IF Marin Väst</ShortName>
+					<MediaName>Idrottsföreningen Marin Väst</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>11:45:46</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>16528</EventRaceId>
+				<EventId>15672</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-06-03</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.03799" y="57.7044"/>
+			</EventRace>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-07-17</Date>
+				<Clock>16:27:35</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>105273</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="39" numberOfStarts="33">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="39" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>285577</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="39" noOfStarts="33">
+					<EventRaceId>16528</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3156461</ResultId>
+					<StartTime>
+						<Date>2017-06-03</Date>
+						<Clock>11:29:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-06-03</Date>
+						<Clock>11:51:42</Clock>
+					</FinishTime>
+					<Time>22:42</Time>
+					<TimeDiff>4:03</TimeDiff>
+					<ResultPosition>4</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-06-10</Date>
+						<Clock>12:55:54</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15530</EventId>
+			<Name>Sommarlandssprinten</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-06-04</Date>
+				<Clock>08:45:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-06-04</Date>
+				<Clock>10:45:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>93</OrganisationId>
+					<Name>IK Gandvik</Name>
+					<ShortName>IK Gandvik</ShortName>
+					<MediaName>Idrottsklubben Gandvik</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Sprint" raceLightCondition="Day">
+				<EventRaceId>16379</EventRaceId>
+				<EventId>15530</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-06-04</Date>
+					<Clock>08:45:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="13.54771" y="58.40656"/>
+			</EventRace>
+			<WebURL>http://www.ikgandvik.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-06-05</Date>
+				<Clock>09:08:49</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>23751</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="76" numberOfStarts="74">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="76" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>287418</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="76" noOfStarts="74">
+					<EventRaceId>16379</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3148076</ResultId>
+					<CCardId>8050909</CCardId>
+					<StartTime>
+						<Date>2017-06-04</Date>
+						<Clock>09:09:31</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-06-04</Date>
+						<Clock>09:24:22</Clock>
+					</FinishTime>
+					<Time>14:51</Time>
+					<TimeDiff>4:24</TimeDiff>
+					<ResultPosition>20</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-06-04</Date>
+						<Clock>19:47:36</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15671</EventId>
+			<Name>Vårserien Etapp 5</Name>
+			<EventClassificationId>4</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-06-06</Date>
+				<Clock>11:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-06-06</Date>
+				<Clock>11:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>13</OrganisationId>
+					<Name>Göteborgs Orienteringsförbund</Name>
+					<ShortName>Göteborgs Orienteringsförbund</ShortName>
+					<MediaName>Göteborgs Orienteringsförbund</MediaName>
+					<OrganisationTypeId>2</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-09-11</Date>
+						<Clock>11:08:43</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>906</OrganisationId>
+					<Name>Mölndal Outdoor IF</Name>
+					<ShortName>Mölndal Outdoor IF</ShortName>
+					<MediaName>Mölndal Outdoor Idrottsförening</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-03-26</Date>
+						<Clock>09:27:03</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>16527</EventRaceId>
+				<EventId>15671</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-06-06</Date>
+					<Clock>11:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.05846" y="57.66252"/>
+			</EventRace>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-06-14</Date>
+				<Clock>23:16:25</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>4957</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="47" numberOfStarts="41">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="47" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>286674</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="47" noOfStarts="41">
+					<EventRaceId>16527</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3171823</ResultId>
+					<CCardId>8050909</CCardId>
+					<StartTime>
+						<Date>2017-06-06</Date>
+						<Clock>12:08:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-06-06</Date>
+						<Clock>12:33:05</Clock>
+					</FinishTime>
+					<Time>25:05</Time>
+					<TimeDiff>5:56</TimeDiff>
+					<ResultPosition>6</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-06-14</Date>
+						<Clock>23:16:20</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15674</EventId>
+			<Name>DM, sprint, Göteborg</Name>
+			<EventClassificationId>1</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-06-07</Date>
+				<Clock>18:30:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-06-07</Date>
+				<Clock>18:30:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>425</OrganisationId>
+					<Name>Utby IK</Name>
+					<ShortName>Utby IK</ShortName>
+					<MediaName>Utby Idrottsklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-30</Date>
+						<Clock>23:25:44</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Sprint" raceLightCondition="Day">
+				<EventRaceId>16530</EventRaceId>
+				<EventId>15674</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-06-07</Date>
+					<Clock>18:30:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.04119" y="57.74011"/>
+			</EventRace>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-06-09</Date>
+				<Clock>14:40:05</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>9960</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="29" numberOfStarts="27">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="29" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>285860</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="29" noOfStarts="27">
+					<EventRaceId>16530</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3155841</ResultId>
+					<StartTime>
+						<Date>2017-06-07</Date>
+						<Clock>18:52:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-06-07</Date>
+						<Clock>19:04:44</Clock>
+					</FinishTime>
+					<Time>12:44</Time>
+					<TimeDiff>0:00</TimeDiff>
+					<ResultPosition>1</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-06-09</Date>
+						<Clock>14:39:59</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>18336</EventId>
+			<Name>GMOK sprintcup etapp 3</Name>
+			<EventClassificationId>4</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-06-14</Date>
+				<Clock>18:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-06-14</Date>
+				<Clock>18:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>582</OrganisationId>
+					<Name>Göteborg-Majorna OK</Name>
+					<ShortName>Göteborg-Majorna OK</ShortName>
+					<MediaName>Göteborg-Majorna OK</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-02-14</Date>
+						<Clock>06:45:46</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Sprint" raceLightCondition="Day">
+				<EventRaceId>19265</EventRaceId>
+				<EventId>18336</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-06-14</Date>
+					<Clock>18:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="11.92984" y="57.69476"/>
+			</EventRace>
+			<WebURL>http://www.gmok.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-06-20</Date>
+				<Clock>21:35:17</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>30959</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="17" numberOfStarts="15">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="17" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>282164</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="17" noOfStarts="15">
+					<EventRaceId>19265</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3182638</ResultId>
+					<StartTime>
+						<Date>2017-06-14</Date>
+						<Clock>18:23:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-06-14</Date>
+						<Clock>18:32:20</Clock>
+					</FinishTime>
+					<Time>9:20</Time>
+					<TimeDiff>0:20</TimeDiff>
+					<ResultPosition>4</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-06-20</Date>
+						<Clock>21:35:14</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>19467</EventId>
+			<Name>GOFs Sommarserie</Name>
+			<EventClassificationId>4</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-07-05</Date>
+				<Clock>18:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-07-05</Date>
+				<Clock>18:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>13</OrganisationId>
+					<Name>Göteborgs Orienteringsförbund</Name>
+					<ShortName>Göteborgs Orienteringsförbund</ShortName>
+					<MediaName>Göteborgs Orienteringsförbund</MediaName>
+					<OrganisationTypeId>2</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-09-11</Date>
+						<Clock>11:08:43</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>224</OrganisationId>
+					<Name>Kungälvs OK</Name>
+					<ShortName>Kungälvs OK</ShortName>
+					<MediaName>Kungälvs Orienteringsklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-01-10</Date>
+						<Clock>20:10:59</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>20437</EventRaceId>
+				<EventId>19467</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-07-05</Date>
+					<Clock>18:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="11.99836" y="57.86068"/>
+			</EventRace>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-07-05</Date>
+				<Clock>20:28:26</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>37442</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="14" numberOfStarts="12">
+			<EventClass allowEntryInAdvance="Y" numberInTeam="1" numberOfEntries="14" numberOfLegs="1" sex="B" teamEntry="N" timePresentation="Y">
+				<EventClassId>295500</EventClassId>
+				<Name>Gul/Orange</Name>
+				<ClassShortName>Gul/Orange</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>19</ClassTypeId>
+				<ExternalId>3</ExternalId>
+				<ClassRaceInfo noOfEntries="14" noOfStarts="12">
+					<EventRaceId>20437</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3200837</ResultId>
+					<CCardId>8050909</CCardId>
+					<StartTime>
+						<Date>2017-07-05</Date>
+						<Clock>18:00:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-07-05</Date>
+						<Clock>18:23:43</Clock>
+					</FinishTime>
+					<Time>23:43</Time>
+					<TimeDiff>0:00</TimeDiff>
+					<ResultPosition>1</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-07-05</Date>
+						<Clock>20:26:57</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndMultiDay">
+			<EventId>15568</EventId>
+			<Name>Österlens 3-kvällars</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-07-10</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-07-12</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>35</OrganisationId>
+					<Name>Andrarums IF</Name>
+					<ShortName>Andrarums IF</ShortName>
+					<MediaName>Andrarums Idrottsförening</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>16419</EventRaceId>
+				<EventId>15568</EventId>
+				<Name>Kväll 1, medel</Name>
+				<RaceDate>
+					<Date>2017-07-10</Date>
+					<Clock>17:30:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="14.00591" y="55.72381"/>
+			</EventRace>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>16420</EventRaceId>
+				<EventId>15568</EventId>
+				<Name>Kväll 2, medel</Name>
+				<RaceDate>
+					<Date>2017-07-11</Date>
+					<Clock>17:30:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="14.00597" y="55.7237"/>
+			</EventRace>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>16421</EventRaceId>
+				<EventId>15568</EventId>
+				<Name>Kväll 3, medel</Name>
+				<RaceDate>
+					<Date>2017-07-12</Date>
+					<Clock>17:30:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="14.0054" y="55.72376"/>
+			</EventRace>
+			<WebURL>http://www.andrarumsif.se</WebURL>
+			<Comment>Karta: Brösarp västra. Rekognoserad och ritad 2015-2016 av Kjell Larsson</Comment>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-07-12</Date>
+				<Clock>20:55:04</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>356</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="61" numberOfStarts="61">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="61" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>279270</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="22" noOfStarts="22">
+					<EventRaceId>16419</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<RaceResult>
+					<EventRaceId>16419</EventRaceId>
+					<Result>
+						<ResultId>3207084</ResultId>
+						<StartTime>
+							<Date>2017-07-10</Date>
+							<Clock>18:01:00</Clock>
+						</StartTime>
+						<FinishTime>
+							<Date>2017-07-10</Date>
+							<Clock>18:17:58</Clock>
+						</FinishTime>
+						<Time>16:58</Time>
+						<TimeDiff>0:05</TimeDiff>
+						<ResultPosition>2</ResultPosition>
+						<CompetitorStatus value="OK"/>
+						<ModifyDate>
+							<Date>2017-07-10</Date>
+							<Clock>21:05:48</Clock>
+						</ModifyDate>
+					</Result>
+				</RaceResult>
+			</PersonResult>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<RaceResult>
+					<EventRaceId>16421</EventRaceId>
+					<Result>
+						<ResultId>3216183</ResultId>
+						<StartTime>
+							<Date>2017-07-12</Date>
+							<Clock>17:49:00</Clock>
+						</StartTime>
+						<FinishTime>
+							<Date>2017-07-12</Date>
+							<Clock>18:03:50</Clock>
+						</FinishTime>
+						<Time>14:50</Time>
+						<TimeDiff>0:02</TimeDiff>
+						<ResultPosition>2</ResultPosition>
+						<CompetitorStatus value="OK"/>
+						<ModifyDate>
+							<Date>2017-07-12</Date>
+							<Clock>20:47:01</Clock>
+						</ModifyDate>
+					</Result>
+				</RaceResult>
+			</PersonResult>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<RaceResult>
+					<EventRaceId>16420</EventRaceId>
+					<Result>
+						<ResultId>3214565</ResultId>
+						<StartTime>
+							<Date>2017-07-11</Date>
+							<Clock>18:08:00</Clock>
+						</StartTime>
+						<FinishTime>
+							<Date>2017-07-11</Date>
+							<Clock>18:28:48</Clock>
+						</FinishTime>
+						<Time>20:48</Time>
+						<TimeDiff>5:12</TimeDiff>
+						<ResultPosition>7</ResultPosition>
+						<CompetitorStatus value="OK"/>
+						<ModifyDate>
+							<Date>2017-07-12</Date>
+							<Clock>19:31:42</Clock>
+						</ModifyDate>
+					</Result>
+				</RaceResult>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndMultiDay">
+			<EventId>15250</EventId>
+			<Name>Hallands 3-dagars</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-07-14</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-07-16</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>100</OrganisationId>
+					<Name>OK Gläntan Vessigebro</Name>
+					<ShortName>OK Gläntan Vessigebro</ShortName>
+					<MediaName>Orienteringsklubben Gläntan Vessigebro</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>140</OrganisationId>
+					<Name>Falkenbergs OK</Name>
+					<ShortName>Falkenbergs OK</ShortName>
+					<MediaName>Falkenbergs Orienteringsklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<OrganisationStatusId>1</OrganisationStatusId>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>159</OrganisationId>
+					<Name>Hylte OK</Name>
+					<ShortName>Hylte OK</ShortName>
+					<MediaName>Hylte Orienteringsklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>404</OrganisationId>
+					<Name>IK Trenne Ullared</Name>
+					<ShortName>IK Trenne Ullared</ShortName>
+					<MediaName>Idrottsklubben Trenne Ullared</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-02-01</Date>
+						<Clock>19:26:42</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>466</OrganisationId>
+					<Name>Ätrans IF</Name>
+					<ShortName>Ätrans IF</ShortName>
+					<MediaName>Ätrans Idrottsförening</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-12-19</Date>
+						<Clock>17:25:13</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>16090</EventRaceId>
+				<EventId>15250</EventId>
+				<Name>Etapp 1, medel</Name>
+				<RaceDate>
+					<Date>2017-07-14</Date>
+					<Clock>16:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.74687" y="57.16467"/>
+			</EventRace>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>16091</EventRaceId>
+				<EventId>15250</EventId>
+				<Name>Etapp 2, lång</Name>
+				<RaceDate>
+					<Date>2017-07-15</Date>
+					<Clock>10:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.74669" y="57.1647"/>
+			</EventRace>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>16092</EventRaceId>
+				<EventId>15250</EventId>
+				<Name>Etapp 3, lång, jaktstart</Name>
+				<RaceDate>
+					<Date>2017-07-16</Date>
+					<Clock>10:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.74661" y="57.16474"/>
+			</EventRace>
+			<WebURL>http://www.svenskorientering.se/Distrikt/hallandsorienteringsforbund/Hallands3-Dagars/2017/</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-10-14</Date>
+				<Clock>22:45:43</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>62969</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="195" numberOfStarts="187">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="195" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>269643</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="65" noOfStarts="65">
+					<EventRaceId>16090</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<RaceResult>
+					<EventRaceId>16090</EventRaceId>
+					<Result>
+						<ResultId>3435088</ResultId>
+						<BibNumber>442</BibNumber>
+						<StartTime>
+							<Date>2017-07-14</Date>
+							<Clock>16:28:00</Clock>
+						</StartTime>
+						<FinishTime>
+							<Date>2017-07-14</Date>
+							<Clock>16:47:51</Clock>
+						</FinishTime>
+						<Time>19:51</Time>
+						<TimeDiff>2:08</TimeDiff>
+						<ResultPosition>6</ResultPosition>
+						<CompetitorStatus value="OK"/>
+						<ModifyDate>
+							<Date>2017-10-14</Date>
+							<Clock>22:16:07</Clock>
+						</ModifyDate>
+					</Result>
+				</RaceResult>
+			</PersonResult>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<RaceResult>
+					<EventRaceId>16092</EventRaceId>
+					<Result>
+						<ResultId>3439875</ResultId>
+						<StartTime>
+							<Date>2017-07-16</Date>
+							<Clock>10:19:33</Clock>
+						</StartTime>
+						<FinishTime>
+							<Date>2017-07-16</Date>
+							<Clock>10:43:37</Clock>
+						</FinishTime>
+						<Time>24:04</Time>
+						<TimeDiff>7:14</TimeDiff>
+						<ResultPosition>14</ResultPosition>
+						<CompetitorStatus value="OK"/>
+						<ModifyDate>
+							<Date>2017-10-14</Date>
+							<Clock>22:45:32</Clock>
+						</ModifyDate>
+					</Result>
+				</RaceResult>
+			</PersonResult>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<RaceResult>
+					<EventRaceId>16091</EventRaceId>
+					<Result>
+						<ResultId>3437284</ResultId>
+						<BibNumber>442</BibNumber>
+						<StartTime>
+							<Date>2017-07-15</Date>
+							<Clock>12:14:00</Clock>
+						</StartTime>
+						<FinishTime>
+							<Date>2017-07-15</Date>
+							<Clock>12:49:05</Clock>
+						</FinishTime>
+						<Time>35:05</Time>
+						<TimeDiff>17:25</TimeDiff>
+						<ResultPosition>25</ResultPosition>
+						<CompetitorStatus value="OK"/>
+						<ModifyDate>
+							<Date>2017-10-14</Date>
+							<Clock>22:35:45</Clock>
+						</ModifyDate>
+					</Result>
+				</RaceResult>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>19422</EventId>
+			<Name>GOFs Sommarserie</Name>
+			<EventClassificationId>4</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-07-19</Date>
+				<Clock>17:30:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-07-19</Date>
+				<Clock>21:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>13</OrganisationId>
+					<Name>Göteborgs Orienteringsförbund</Name>
+					<ShortName>Göteborgs Orienteringsförbund</ShortName>
+					<MediaName>Göteborgs Orienteringsförbund</MediaName>
+					<OrganisationTypeId>2</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-09-11</Date>
+						<Clock>11:08:43</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>384</OrganisationId>
+					<Name>Sävedalens AIK</Name>
+					<ShortName>Sävedalens AIK</ShortName>
+					<MediaName>Sävedalens AIK</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-06-08</Date>
+						<Clock>17:36:40</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>20392</EventRaceId>
+				<EventId>19422</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-07-19</Date>
+					<Clock>17:30:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.18856" y="57.75446"/>
+			</EventRace>
+			<WebURL>http://www.saik.o.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-07-19</Date>
+				<Clock>20:13:28</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>74031</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="31" numberOfStarts="29">
+			<EventClass allowEntryInAdvance="Y" numberInTeam="1" numberOfEntries="31" numberOfLegs="1" sex="B" teamEntry="N" timePresentation="Y">
+				<EventClassId>294795</EventClassId>
+				<Name>Gul/Orange</Name>
+				<ClassShortName>Gul/Orange</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>19</ClassTypeId>
+				<ExternalId>3</ExternalId>
+				<ClassRaceInfo noOfEntries="31" noOfStarts="29">
+					<EventRaceId>20392</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3219135</ResultId>
+					<CCardId>8050909</CCardId>
+					<StartTime>
+						<Date>2017-07-19</Date>
+						<Clock>18:01:51</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-07-19</Date>
+						<Clock>18:24:25</Clock>
+					</FinishTime>
+					<Time>22:34</Time>
+					<TimeDiff>0:00</TimeDiff>
+					<ResultPosition>1</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-07-19</Date>
+						<Clock>20:13:23</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndMultiDay">
+			<EventId>16881</EventId>
+			<Name>O-Ringen Värmland 2017</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-07-23</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-07-28</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>611</OrganisationId>
+					<Name>O-Ringen</Name>
+					<ShortName>O-Ringen</ShortName>
+					<MediaName>O-Ringen</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2011-06-16</Date>
+						<Clock>13:15:17</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>17772</EventRaceId>
+				<EventId>16881</EventId>
+				<Name>Etapp 1, lång</Name>
+				<RaceDate>
+					<Date>2017-07-23</Date>
+					<Clock>09:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.59151" y="59.65427"/>
+			</EventRace>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>17773</EventRaceId>
+				<EventId>16881</EventId>
+				<Name>Etapp 2, lång</Name>
+				<RaceDate>
+					<Date>2017-07-24</Date>
+					<Clock>09:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.59151" y="59.65427"/>
+			</EventRace>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>17774</EventRaceId>
+				<EventId>16881</EventId>
+				<Name>Etapp 3, lång</Name>
+				<RaceDate>
+					<Date>2017-07-26</Date>
+					<Clock>09:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.59151" y="59.65427"/>
+			</EventRace>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>17775</EventRaceId>
+				<EventId>16881</EventId>
+				<Name>Etapp 4, medel</Name>
+				<RaceDate>
+					<Date>2017-07-27</Date>
+					<Clock>09:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.59151" y="59.65427"/>
+			</EventRace>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>17776</EventRaceId>
+				<EventId>16881</EventId>
+				<Name>Etapp 5, lång, jaktstart</Name>
+				<RaceDate>
+					<Date>2017-07-28</Date>
+					<Clock>09:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.59151" y="59.65427"/>
+			</EventRace>
+			<WebURL>http://www.oringen.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-10-12</Date>
+				<Clock>21:14:35</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>1884</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="745" numberOfStarts="721">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="745" numberOfLegs="1" sequence="360" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>298819</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="149" noOfStarts="144">
+					<EventRaceId>17773</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<RaceResult>
+					<EventRaceId>17773</EventRaceId>
+					<Result>
+						<ResultId>3383964</ResultId>
+						<BibNumber>7034</BibNumber>
+						<StartTime>
+							<Date>2017-07-24</Date>
+							<Clock>09:28:00</Clock>
+						</StartTime>
+						<FinishTime>
+							<Date>2017-07-24</Date>
+							<Clock>09:46:36</Clock>
+						</FinishTime>
+						<Time>18:36</Time>
+						<TimeDiff>2:14</TimeDiff>
+						<ResultPosition>6</ResultPosition>
+						<CompetitorStatus value="OK"/>
+						<ModifyDate>
+							<Date>2017-10-12</Date>
+							<Clock>13:29:01</Clock>
+						</ModifyDate>
+					</Result>
+				</RaceResult>
+			</PersonResult>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<RaceResult>
+					<EventRaceId>17776</EventRaceId>
+					<Result>
+						<ResultId>3420078</ResultId>
+						<BibNumber>7</BibNumber>
+						<StartTime>
+							<Date>2017-07-28</Date>
+							<Clock>08:49:44</Clock>
+						</StartTime>
+						<FinishTime>
+							<Date>2017-07-28</Date>
+							<Clock>09:11:31</Clock>
+						</FinishTime>
+						<Time>21:47</Time>
+						<TimeDiff>3:00</TimeDiff>
+						<ResultPosition>11</ResultPosition>
+						<CompetitorStatus value="OK"/>
+						<ModifyDate>
+							<Date>2017-10-12</Date>
+							<Clock>21:13:50</Clock>
+						</ModifyDate>
+					</Result>
+				</RaceResult>
+			</PersonResult>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<RaceResult>
+					<EventRaceId>17772</EventRaceId>
+					<Result>
+						<ResultId>3372146</ResultId>
+						<BibNumber>7034</BibNumber>
+						<StartTime>
+							<Date>2017-07-23</Date>
+							<Clock>13:04:00</Clock>
+						</StartTime>
+						<FinishTime>
+							<Date>2017-07-23</Date>
+							<Clock>13:29:53</Clock>
+						</FinishTime>
+						<Time>25:53</Time>
+						<TimeDiff>5:03</TimeDiff>
+						<ResultPosition>12</ResultPosition>
+						<CompetitorStatus value="OK"/>
+						<ModifyDate>
+							<Date>2017-10-12</Date>
+							<Clock>12:41:05</Clock>
+						</ModifyDate>
+					</Result>
+				</RaceResult>
+			</PersonResult>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<RaceResult>
+					<EventRaceId>17775</EventRaceId>
+					<Result>
+						<ResultId>3407530</ResultId>
+						<BibNumber>7034</BibNumber>
+						<StartTime>
+							<Date>2017-07-27</Date>
+							<Clock>11:58:00</Clock>
+						</StartTime>
+						<FinishTime>
+							<Date>2017-07-27</Date>
+							<Clock>12:19:38</Clock>
+						</FinishTime>
+						<Time>21:38</Time>
+						<TimeDiff>5:42</TimeDiff>
+						<ResultPosition>14</ResultPosition>
+						<CompetitorStatus value="OK"/>
+						<ModifyDate>
+							<Date>2017-10-12</Date>
+							<Clock>17:35:03</Clock>
+						</ModifyDate>
+					</Result>
+				</RaceResult>
+			</PersonResult>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<RaceResult>
+					<EventRaceId>17774</EventRaceId>
+					<Result>
+						<ResultId>3395530</ResultId>
+						<BibNumber>7034</BibNumber>
+						<StartTime>
+							<Date>2017-07-26</Date>
+							<Clock>10:32:00</Clock>
+						</StartTime>
+						<FinishTime>
+							<Date>2017-07-26</Date>
+							<Clock>10:57:51</Clock>
+						</FinishTime>
+						<Time>25:51</Time>
+						<TimeDiff>6:45</TimeDiff>
+						<ResultPosition>19</ResultPosition>
+						<CompetitorStatus value="OK"/>
+						<ModifyDate>
+							<Date>2017-10-12</Date>
+							<Clock>14:52:43</Clock>
+						</ModifyDate>
+					</Result>
+				</RaceResult>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>19457</EventId>
+			<Name>GOFs Sommarserie</Name>
+			<EventClassificationId>4</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-08-03</Date>
+				<Clock>17:30:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-08-03</Date>
+				<Clock>17:30:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>13</OrganisationId>
+					<Name>Göteborgs Orienteringsförbund</Name>
+					<ShortName>Göteborgs Orienteringsförbund</ShortName>
+					<MediaName>Göteborgs Orienteringsförbund</MediaName>
+					<OrganisationTypeId>2</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-09-11</Date>
+						<Clock>11:08:43</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>423</OrganisationId>
+					<Name>IK Uven</Name>
+					<ShortName>IK Uven</ShortName>
+					<MediaName>Idrottsklubben Uven</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>20427</EventRaceId>
+				<EventId>19457</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-08-03</Date>
+					<Clock>17:30:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.1208" y="57.56991"/>
+			</EventRace>
+			<WebURL>http://ikuven.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-08-03</Date>
+				<Clock>23:15:32</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>31175</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="23" numberOfStarts="19">
+			<EventClass allowEntryInAdvance="Y" numberInTeam="1" numberOfEntries="23" numberOfLegs="1" sex="B" teamEntry="N" timePresentation="Y">
+				<EventClassId>295437</EventClassId>
+				<Name>Gul/Orange</Name>
+				<ClassShortName>Gul/Orange</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>19</ClassTypeId>
+				<ExternalId>3</ExternalId>
+				<ClassRaceInfo noOfEntries="23" noOfStarts="19">
+					<EventRaceId>20427</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3232973</ResultId>
+					<CCardId>8050909</CCardId>
+					<StartTime>
+						<Date>2017-08-03</Date>
+						<Clock>18:00:49</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-08-03</Date>
+						<Clock>18:41:32</Clock>
+					</FinishTime>
+					<Time>40:43</Time>
+					<TimeDiff>11:43</TimeDiff>
+					<ResultPosition>9</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-08-03</Date>
+						<Clock>23:15:30</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="RelaySingleDay">
+			<EventId>14950</EventId>
+			<Name>Ungdomens 10mila</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-08-04</Date>
+				<Clock>14:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-08-04</Date>
+				<Clock>20:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>402</OrganisationId>
+					<Name>OK Tranan</Name>
+					<ShortName>OK Tranan</ShortName>
+					<MediaName>Orienteringsklubben Tranan</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2016-10-25</Date>
+						<Clock>05:52:17</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>413</OrganisationId>
+					<Name>Ulricehamns OK</Name>
+					<ShortName>Ulricehamns OK</ShortName>
+					<MediaName>Ulricehamns Orienteringsklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="DayAndNight">
+				<EventRaceId>15772</EventRaceId>
+				<EventId>14950</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-08-04</Date>
+					<Clock>14:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="13.30178" y="57.42991"/>
+			</EventRace>
+			<WebURL>http://www.oktranan.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-10-04</Date>
+				<Clock>10:33:36</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>3803</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult>
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfLegs="4" sex="B" teamEntry="Y" timePresentation="Y">
+				<EventClassId>283444</EventClassId>
+				<Name>HD-12</Name>
+				<ClassShortName>HD12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<ExternalId>1001</ExternalId>
+				<ClassRaceInfo>
+					<EventRaceId>15772</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<TeamResult>
+				<TeamName>Sjövalla FK 1</TeamName>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<BibNumber>894</BibNumber>
+				<StartTime>
+					<Date>2017-08-04</Date>
+					<Clock>18:00:00</Clock>
+				</StartTime>
+				<FinishTime>
+					<Date>2017-08-04</Date>
+					<Clock>18:12:42</Clock>
+				</FinishTime>
+				<Time>12:42</Time>
+				<ResultPosition>6</ResultPosition>
+				<TeamStatus value="OK"/>
+				<TeamMemberResult>
+					<Person sex="M">
+						<PersonName>
+							<Family>Alinder</Family>
+							<Given sequence="1">Fabian</Given>
+						</PersonName>
+						<PersonId>74056</PersonId>
+						<BirthDate>
+							<Date>2005-01-01</Date>
+						</BirthDate>
+						<Nationality>
+							<Country>
+								<CountryId value="752"/>
+								<Alpha3 value="SWE"/>
+								<Name languageId="sv">Sverige</Name>
+								<Name languageId="en">Sweden</Name>
+							</Country>
+						</Nationality>
+					</Person>
+					<Organisation>
+						<OrganisationId>321</OrganisationId>
+						<Name>Sjövalla FK</Name>
+						<ShortName>Sjövalla FK</ShortName>
+						<OrganisationTypeId>5</OrganisationTypeId>
+					</Organisation>
+					<Leg>1</Leg>
+					<LegOrder>1</LegOrder>
+					<BibNumber>894</BibNumber>
+					<StartTime>
+						<Date>2017-08-04</Date>
+						<Clock>18:00:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-08-04</Date>
+						<Clock>18:12:42</Clock>
+					</FinishTime>
+					<Time>12:42</Time>
+					<TimeBehind type="Leg">13</TimeBehind>
+					<Position type="Leg">6</Position>
+					<CompetitorStatus value="OK"/>
+					<OverallResult>
+						<Time>12:42</Time>
+						<ResultPosition>6</ResultPosition>
+						<TeamStatus value="OK"/>
+					</OverallResult>
+				</TeamMemberResult>
+			</TeamResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndMultiDay">
+			<EventId>15203</EventId>
+			<Name>Göteborg O-meeting</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-08-18</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-08-20</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>563</OrganisationId>
+					<Name>Frölunda OL</Name>
+					<ShortName>Frölunda OL</ShortName>
+					<MediaName>Frölunda Orienteringslöpare</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-01-16</Date>
+						<Clock>08:52:20</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>16040</EventRaceId>
+				<EventId>15203</EventId>
+				<Name>Etapp 1, medel</Name>
+				<RaceDate>
+					<Date>2017-08-18</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="11.98817" y="57.58249"/>
+			</EventRace>
+			<EventRace raceDistance="Sprint" raceLightCondition="Day">
+				<EventRaceId>16041</EventRaceId>
+				<EventId>15203</EventId>
+				<Name>Etapp 2, sprint</Name>
+				<RaceDate>
+					<Date>2017-08-19</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="11.99307" y="57.68406"/>
+			</EventRace>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>16042</EventRaceId>
+				<EventId>15203</EventId>
+				<Name>Etapp 3, lång</Name>
+				<RaceDate>
+					<Date>2017-08-20</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="11.98817" y="57.5825"/>
+			</EventRace>
+			<WebURL>http://www.frolundaol.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-08-26</Date>
+				<Clock>22:39:34</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>40625</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="174" numberOfStarts="156">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="174" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>291434</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="57" noOfStarts="48">
+					<EventRaceId>16042</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<RaceResult>
+					<EventRaceId>16042</EventRaceId>
+					<Result>
+						<ResultId>3263110</ResultId>
+						<BibNumber>3</BibNumber>
+						<StartTime>
+							<Date>2017-08-20</Date>
+							<Clock>11:05:00</Clock>
+						</StartTime>
+						<FinishTime>
+							<Date>2017-08-20</Date>
+							<Clock>11:27:57</Clock>
+						</FinishTime>
+						<Time>22:57</Time>
+						<TimeDiff>0:00</TimeDiff>
+						<ResultPosition>1</ResultPosition>
+						<CompetitorStatus value="OK"/>
+						<ModifyDate>
+							<Date>2017-08-22</Date>
+							<Clock>08:32:13</Clock>
+						</ModifyDate>
+					</Result>
+				</RaceResult>
+			</PersonResult>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<RaceResult>
+					<EventRaceId>16041</EventRaceId>
+					<Result>
+						<ResultId>3264548</ResultId>
+						<BibNumber>170</BibNumber>
+						<StartTime>
+							<Date>2017-08-19</Date>
+							<Clock>10:30:00</Clock>
+						</StartTime>
+						<FinishTime>
+							<Date>2017-08-19</Date>
+							<Clock>10:39:03</Clock>
+						</FinishTime>
+						<Time>9:03</Time>
+						<TimeDiff>0:23</TimeDiff>
+						<ResultPosition>2</ResultPosition>
+						<CompetitorStatus value="OK"/>
+						<ModifyDate>
+							<Date>2017-08-22</Date>
+							<Clock>16:18:59</Clock>
+						</ModifyDate>
+					</Result>
+				</RaceResult>
+			</PersonResult>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<RaceResult>
+					<EventRaceId>16040</EventRaceId>
+					<Result>
+						<ResultId>3262012</ResultId>
+						<BibNumber>170</BibNumber>
+						<StartTime>
+							<Date>2017-08-18</Date>
+							<Clock>18:14:00</Clock>
+						</StartTime>
+						<FinishTime>
+							<Date>2017-08-18</Date>
+							<Clock>18:35:45</Clock>
+						</FinishTime>
+						<Time>21:45</Time>
+						<TimeDiff>1:37</TimeDiff>
+						<ResultPosition>3</ResultPosition>
+						<CompetitorStatus value="OK"/>
+						<ModifyDate>
+							<Date>2017-08-22</Date>
+							<Clock>08:16:55</Clock>
+						</ModifyDate>
+					</Result>
+				</RaceResult>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15427</EventId>
+			<Name>Götaälvdalsträffen</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-08-27</Date>
+				<Clock>11:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-08-27</Date>
+				<Clock>11:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>96</OrganisationId>
+					<Name>OK Gipen</Name>
+					<ShortName>OK Gipen</ShortName>
+					<MediaName>Orienteringsklubben Gipen</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>16272</EventRaceId>
+				<EventId>15427</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-08-27</Date>
+					<Clock>11:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.17593" y="58.10009"/>
+			</EventRace>
+			<WebURL>http://www.okgipen.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-08-28</Date>
+				<Clock>11:16:04</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>3803</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="19" numberOfStarts="16">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="19" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>298941</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="19" noOfStarts="16">
+					<EventRaceId>16272</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3280951</ResultId>
+					<StartTime>
+						<Date>2017-08-27</Date>
+						<Clock>11:24:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-08-27</Date>
+						<Clock>11:42:33</Clock>
+					</FinishTime>
+					<Time>18:33</Time>
+					<TimeDiff>0:00</TimeDiff>
+					<ResultPosition>1</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-08-28</Date>
+						<Clock>11:16:00</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15537</EventId>
+			<Name>DM, medel, Göteborg</Name>
+			<EventClassificationId>1</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-09-02</Date>
+				<Clock>10:30:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-09-02</Date>
+				<Clock>10:30:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>230</OrganisationId>
+					<Name>OK Landehof</Name>
+					<ShortName>OK Landehof</ShortName>
+					<MediaName>Orienteringsklubben Landehof</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-12-11</Date>
+						<Clock>22:01:59</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>16386</EventRaceId>
+				<EventId>15537</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-09-02</Date>
+					<Clock>10:30:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.18294" y="57.69046"/>
+			</EventRace>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-09-02</Date>
+				<Clock>13:37:02</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>48544</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="38" numberOfStarts="33">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="38" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>299981</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="38" noOfStarts="33">
+					<EventRaceId>16386</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla Frisksportklubb</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3291328</ResultId>
+					<StartTime>
+						<Date>2017-09-02</Date>
+						<Clock>11:28:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-09-02</Date>
+						<Clock>11:48:33</Clock>
+					</FinishTime>
+					<Time>20:33</Time>
+					<TimeDiff>0:41</TimeDiff>
+					<ResultPosition>3</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-09-02</Date>
+						<Clock>13:36:54</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="RelaySingleDay">
+			<EventId>15436</EventId>
+			<Name>DM, stafett, Göteborg, Halland + Västergötland</Name>
+			<EventClassificationId>1</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-09-03</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-09-03</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>530</OrganisationId>
+					<Name>OK Orinto</Name>
+					<ShortName>OK Orinto</ShortName>
+					<MediaName>Orienteringsklubben Orinto</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-03-19</Date>
+						<Clock>21:56:56</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>16281</EventRaceId>
+				<EventId>15436</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-09-03</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.48193" y="57.6341"/>
+			</EventRace>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-09-12</Date>
+				<Clock>18:50:05</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>34105</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="11" numberOfStarts="10">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="11" numberOfLegs="3" sex="M" teamEntry="Y" timePresentation="Y">
+				<EventClassId>297415</EventClassId>
+				<Name>H12G</Name>
+				<ClassShortName>H12G</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<ExternalId>104</ExternalId>
+				<ClassRaceInfo noOfEntries="11" noOfStarts="10">
+					<EventRaceId>16281</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<TeamResult>
+				<TeamName>Sjövalla FK 1</TeamName>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<BibNumber>414-1</BibNumber>
+				<StartTime>
+					<Date>2017-09-03</Date>
+					<Clock>11:45:00</Clock>
+				</StartTime>
+				<FinishTime>
+					<Date>2017-09-03</Date>
+					<Clock>12:07:38</Clock>
+				</FinishTime>
+				<Time>22:38</Time>
+				<TimeDiff>0:06</TimeDiff>
+				<ResultPosition>3</ResultPosition>
+				<TeamStatus value="OK"/>
+				<TeamMemberResult>
+					<Person sex="M">
+						<PersonName>
+							<Family>Alinder</Family>
+							<Given sequence="1">Fabian</Given>
+						</PersonName>
+						<PersonId>74056</PersonId>
+						<BirthDate>
+							<Date>2005-01-01</Date>
+						</BirthDate>
+						<Nationality>
+							<Country>
+								<CountryId value="752"/>
+								<Alpha3 value="SWE"/>
+								<Name languageId="sv">Sverige</Name>
+								<Name languageId="en">Sweden</Name>
+							</Country>
+						</Nationality>
+					</Person>
+					<Organisation>
+						<OrganisationId>321</OrganisationId>
+						<Name>Sjövalla FK</Name>
+						<ShortName>Sjövalla FK</ShortName>
+						<OrganisationTypeId>5</OrganisationTypeId>
+					</Organisation>
+					<Leg>1</Leg>
+					<LegOrder>1</LegOrder>
+					<BibNumber>414-1</BibNumber>
+					<StartTime>
+						<Date>2017-09-03</Date>
+						<Clock>11:45:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-09-03</Date>
+						<Clock>12:07:38</Clock>
+					</FinishTime>
+					<Time>22:38</Time>
+					<TimeBehind type="Leg">6</TimeBehind>
+					<Position type="Leg">3</Position>
+					<CompetitorStatus value="OK"/>
+					<OverallResult>
+						<Time>22:38</Time>
+						<TimeDiff>0:06</TimeDiff>
+						<ResultPosition>3</ResultPosition>
+						<TeamStatus value="OK"/>
+					</OverallResult>
+					<CCardId>8050909</CCardId>
+				</TeamMemberResult>
+			</TeamResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15413</EventId>
+			<Name>DM, lång, Göteborg</Name>
+			<EventClassificationId>1</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-09-09</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-09-09</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>29</OrganisationId>
+					<Name>OK Alehof</Name>
+					<ShortName>OK Alehof</ShortName>
+					<MediaName>Orienteringsklubben Alehof</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>16257</EventRaceId>
+				<EventId>15413</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-09-09</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="11.88372" y="57.87323"/>
+			</EventRace>
+			<WebURL>http://alehof.se</WebURL>
+			<Comment>Kungälvs arrangemang &quot;Pepparkaksluffen kommer att hållas samma helg. Sammarrangemang av båda tävlingarna på en helg.</Comment>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-09-10</Date>
+				<Clock>21:10:16</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>83227</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="36" numberOfStarts="30">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="36" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>293029</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="36" noOfStarts="30">
+					<EventRaceId>16257</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3319128</ResultId>
+					<StartTime>
+						<Date>2017-09-09</Date>
+						<Clock>10:20:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-09-09</Date>
+						<Clock>10:41:04</Clock>
+					</FinishTime>
+					<Time>21:04</Time>
+					<TimeDiff>0:00</TimeDiff>
+					<ResultPosition>1</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-09-10</Date>
+						<Clock>21:10:09</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15184</EventId>
+			<Name>Sävedalens AIK</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-09-16</Date>
+				<Clock>10:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-09-16</Date>
+				<Clock>10:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>384</OrganisationId>
+					<Name>Sävedalens AIK</Name>
+					<ShortName>Sävedalens AIK</ShortName>
+					<MediaName>Sävedalens AIK</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-06-08</Date>
+						<Clock>17:36:40</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>16020</EventRaceId>
+				<EventId>15184</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-09-16</Date>
+					<Clock>10:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.12479" y="57.71436"/>
+			</EventRace>
+			<WebURL>http://www.saik.o.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-09-16</Date>
+				<Clock>17:42:20</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>6256</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="27" numberOfStarts="24">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="27" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>274458</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="27" noOfStarts="24">
+					<EventRaceId>16020</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3330241</ResultId>
+					<CCardId>8050909</CCardId>
+					<StartTime>
+						<Date>2017-09-16</Date>
+						<Clock>10:54:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-09-16</Date>
+						<Clock>11:15:21</Clock>
+					</FinishTime>
+					<Time>21:21</Time>
+					<TimeDiff>0:35</TimeDiff>
+					<ResultPosition>4</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-09-16</Date>
+						<Clock>16:49:12</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>20095</EventId>
+			<Name>Sprint-KM för OK Landehof och Sjövalla FK</Name>
+			<EventClassificationId>5</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-09-28</Date>
+				<Clock>18:30:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-09-28</Date>
+				<Clock>18:30:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<MediaName>Sjövalla Frisksportklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-03-06</Date>
+						<Clock>21:55:56</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Sprint" raceLightCondition="Day">
+				<EventRaceId>21082</EventRaceId>
+				<EventId>20095</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-09-28</Date>
+					<Clock>18:30:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.09718" y="57.66157"/>
+			</EventRace>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-10-02</Date>
+				<Clock>14:41:58</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>1014</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="12" numberOfStarts="11">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="12" numberOfLegs="1" sequence="810" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>305989</EventClassId>
+				<Name>H 12</Name>
+				<ClassShortName>H 12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<ExternalId>8</ExternalId>
+				<ClassRaceInfo noOfEntries="12" noOfStarts="11">
+					<EventRaceId>21082</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3361973</ResultId>
+					<CCardId>8050909</CCardId>
+					<StartTime>
+						<Date>2017-09-28</Date>
+						<Clock>18:51:14</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-09-28</Date>
+						<Clock>18:59:15</Clock>
+					</FinishTime>
+					<Time>8:01</Time>
+					<TimeDiff>0:00</TimeDiff>
+					<ResultPosition>1</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-10-02</Date>
+						<Clock>14:41:57</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>20167</EventId>
+			<Name>Lång-KM för OK Landehof och Sjövalla FK</Name>
+			<EventClassificationId>5</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-09-30</Date>
+				<Clock>10:30:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-09-30</Date>
+				<Clock>10:30:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>230</OrganisationId>
+					<Name>OK Landehof</Name>
+					<ShortName>OK Landehof</ShortName>
+					<MediaName>Orienteringsklubben Landehof</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-12-11</Date>
+						<Clock>22:01:59</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>21159</EventRaceId>
+				<EventId>20167</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-09-30</Date>
+					<Clock>10:30:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.23392" y="57.72159"/>
+			</EventRace>
+			<WebURL>http://www.oklandehof.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-09-30</Date>
+				<Clock>12:28:56</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>101705</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="5" numberOfStarts="2">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="5" numberOfLegs="1" sequence="760" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>306776</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<ExternalId>40</ExternalId>
+				<ClassRaceInfo noOfEntries="5" noOfStarts="2">
+					<EventRaceId>21159</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3353773</ResultId>
+					<CCardId>8050909</CCardId>
+					<StartTime>
+						<Date>2017-09-30</Date>
+						<Clock>10:31:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-09-30</Date>
+						<Clock>10:59:04</Clock>
+					</FinishTime>
+					<Time>28:04</Time>
+					<TimeDiff>0:00</TimeDiff>
+					<ResultPosition>1</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-09-30</Date>
+						<Clock>12:28:54</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="RelaySingleDay">
+			<EventId>15463</EventId>
+			<Name>25manna</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-10-07</Date>
+				<Clock>09:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-10-07</Date>
+				<Clock>09:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>410</OrganisationId>
+					<Name>Tullinge SK</Name>
+					<ShortName>Tullinge SK</ShortName>
+					<MediaName>Tullinge Sportklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>578</OrganisationId>
+					<Name>IFK Tumba SOK</Name>
+					<ShortName>IFK Tumba SOK</ShortName>
+					<MediaName>IFK Tumba Skid och  Orienteringsklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-03-12</Date>
+						<Clock>12:57:29</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>16309</EventRaceId>
+				<EventId>15463</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-10-07</Date>
+					<Clock>09:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="17.76984" y="59.17347"/>
+			</EventRace>
+			<WebURL>http://www.25manna.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2018-10-04</Date>
+				<Clock>09:52:12</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>1884</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="375" numberOfStarts="374">
+			<EventClass allowEntryInAdvance="Y" numberInTeam="1" numberOfEntries="375" numberOfLegs="10" sex="B" teamEntry="Y" timePresentation="Y">
+				<EventClassId>299385</EventClassId>
+				<Name>25manna</Name>
+				<ClassShortName>25m</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<ExternalId>1</ExternalId>
+				<ClassRaceInfo noOfEntries="375" noOfStarts="369">
+					<EventRaceId>16309</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<TeamResult>
+				<TeamName>Sjövalla FK 1</TeamName>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<BibNumber>164</BibNumber>
+				<StartTime>
+					<Date>2017-10-07</Date>
+					<Clock>14:07:04</Clock>
+				</StartTime>
+				<FinishTime>
+					<Date>2017-10-07</Date>
+					<Clock>14:40:08</Clock>
+				</FinishTime>
+				<Time>33:04</Time>
+				<ResultPosition>155</ResultPosition>
+				<TeamStatus value="OK"/>
+				<TeamMemberResult>
+					<Person sex="M">
+						<PersonName>
+							<Family>Alinder</Family>
+							<Given sequence="1">Fabian</Given>
+						</PersonName>
+						<PersonId>74056</PersonId>
+						<BirthDate>
+							<Date>2005-01-01</Date>
+						</BirthDate>
+						<Nationality>
+							<Country>
+								<CountryId value="752"/>
+								<Alpha3 value="SWE"/>
+								<Name languageId="sv">Sverige</Name>
+								<Name languageId="en">Sweden</Name>
+							</Country>
+						</Nationality>
+					</Person>
+					<Organisation>
+						<OrganisationId>321</OrganisationId>
+						<Name>Sjövalla FK</Name>
+						<ShortName>Sjövalla FK</ShortName>
+						<OrganisationTypeId>5</OrganisationTypeId>
+						<CountryId value="752"/>
+					</Organisation>
+					<Leg>8</Leg>
+					<LegOrder>1</LegOrder>
+					<BibNumber>164</BibNumber>
+					<StartTime>
+						<Date>2017-10-07</Date>
+						<Clock>14:07:04</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-10-07</Date>
+						<Clock>14:40:08</Clock>
+					</FinishTime>
+					<Time>33:04</Time>
+					<TimeBehind type="Leg">867</TimeBehind>
+					<Position type="Leg">202</Position>
+					<CompetitorStatus value="OK"/>
+					<OverallResult>
+						<Time>5:40:08</Time>
+						<ResultPosition>155</ResultPosition>
+						<TeamStatus value="OK"/>
+					</OverallResult>
+				</TeamMemberResult>
+			</TeamResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15464</EventId>
+			<Name>25mannamedeln</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-10-08</Date>
+				<Clock>09:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-10-08</Date>
+				<Clock>09:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>410</OrganisationId>
+					<Name>Tullinge SK</Name>
+					<ShortName>Tullinge SK</ShortName>
+					<MediaName>Tullinge Sportklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>578</OrganisationId>
+					<Name>IFK Tumba SOK</Name>
+					<ShortName>IFK Tumba SOK</ShortName>
+					<MediaName>IFK Tumba Skid och  Orienteringsklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-03-12</Date>
+						<Clock>12:57:29</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>16310</EventRaceId>
+				<EventId>15464</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-10-08</Date>
+					<Clock>09:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="17.77061" y="59.17295"/>
+			</EventRace>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-10-25</Date>
+				<Clock>09:28:30</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>1421</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult>
+			<EventClass allowEntryInAdvance="N" highAge="12" numberInTeam="1" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>299457</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo>
+					<EventRaceId>16310</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3429033</ResultId>
+					<StartTime>
+						<Date>2017-10-08</Date>
+						<Clock>09:54:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-10-08</Date>
+						<Clock>10:18:31</Clock>
+					</FinishTime>
+					<Time>24:31</Time>
+					<TimeDiff>6:08</TimeDiff>
+					<ResultPosition>18</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-10-13</Date>
+						<Clock>16:26:01</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>20194</EventId>
+			<Name>Närnatt Cup, etapp 1</Name>
+			<EventClassificationId>4</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-10-11</Date>
+				<Clock>19:30:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-10-11</Date>
+				<Clock>19:30:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>13</OrganisationId>
+					<Name>Göteborgs Orienteringsförbund</Name>
+					<ShortName>Göteborgs Orienteringsförbund</ShortName>
+					<MediaName>Göteborgs Orienteringsförbund</MediaName>
+					<OrganisationTypeId>2</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-09-11</Date>
+						<Clock>11:08:43</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>110</OrganisationId>
+					<Name>Göteborgs SK</Name>
+					<ShortName>Göteborgs SK</ShortName>
+					<MediaName>Göteborgs Skidklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Night">
+				<EventRaceId>21186</EventRaceId>
+				<EventId>20194</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-10-11</Date>
+					<Clock>19:30:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.03673" y="57.70434"/>
+			</EventRace>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-10-11</Date>
+				<Clock>20:47:48</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>23950</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="17" numberOfStarts="15">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="17" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>307041</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="17" noOfStarts="15">
+					<EventRaceId>21186</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3368076</ResultId>
+					<CCardId>8050909</CCardId>
+					<StartTime>
+						<Date>2017-10-11</Date>
+						<Clock>19:45:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-10-11</Date>
+						<Clock>19:59:50</Clock>
+					</FinishTime>
+					<Time>14:50</Time>
+					<TimeDiff>0:00</TimeDiff>
+					<ResultPosition>1</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-10-11</Date>
+						<Clock>20:47:47</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>20195</EventId>
+			<Name>Närnatt Cup, etapp 2</Name>
+			<EventClassificationId>4</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-10-18</Date>
+				<Clock>19:10:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-10-18</Date>
+				<Clock>19:10:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>13</OrganisationId>
+					<Name>Göteborgs Orienteringsförbund</Name>
+					<ShortName>Göteborgs Orienteringsförbund</ShortName>
+					<MediaName>Göteborgs Orienteringsförbund</MediaName>
+					<OrganisationTypeId>2</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-09-11</Date>
+						<Clock>11:08:43</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>145</OrganisationId>
+					<Name>FK Herkules</Name>
+					<ShortName>FK Herkules</ShortName>
+					<MediaName>Frisksportklubben Herkules</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-03-21</Date>
+						<Clock>19:16:09</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Night">
+				<EventRaceId>21187</EventRaceId>
+				<EventId>20195</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-10-18</Date>
+					<Clock>19:10:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.05631" y="57.65326"/>
+			</EventRace>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-10-19</Date>
+				<Clock>19:56:16</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>25926</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="14" numberOfStarts="13">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="14" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>307055</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="14" noOfStarts="13">
+					<EventRaceId>21187</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3445861</ResultId>
+					<StartTime>
+						<Date>2017-10-18</Date>
+						<Clock>19:23:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-10-18</Date>
+						<Clock>19:40:44</Clock>
+					</FinishTime>
+					<Time>17:44</Time>
+					<TimeDiff>4:17</TimeDiff>
+					<ResultPosition>5</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-10-19</Date>
+						<Clock>19:56:15</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="RelaySingleDay">
+			<EventId>15737</EventId>
+			<Name>IFK Göteborgs Höstbudkavlen</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-10-21</Date>
+				<Clock>10:30:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-10-21</Date>
+				<Clock>14:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>2919</OrganisationId>
+					<Name>IFK Göteborg Orientering</Name>
+					<ShortName>IFK Göteborg Orientering</ShortName>
+					<MediaName>IFK Göteborg Orientering</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-07-26</Date>
+						<Clock>08:50:22</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Day">
+				<EventRaceId>16593</EventRaceId>
+				<EventId>15737</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-10-21</Date>
+					<Clock>10:30:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.05338" y="57.70837"/>
+			</EventRace>
+			<WebURL>http://ifkgbgol.nu</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-10-23</Date>
+				<Clock>17:18:35</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>3725</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="17" numberOfStarts="17">
+			<EventClass allowEntryInAdvance="Y" highAge="16" maxAverageAge="14" numberInTeam="1" numberOfEntries="17" numberOfLegs="3" sex="B" teamEntry="Y" timePresentation="Y">
+				<EventClassId>270652</EventClassId>
+				<Name>Herrar42</Name>
+				<ClassShortName>H42</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<ExternalId>10</ExternalId>
+				<ClassRaceInfo noOfEntries="23" noOfStarts="21">
+					<EventRaceId>16593</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<TeamResult>
+				<TeamName>Sjövalla FK 1</TeamName>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<BibNumber>13</BibNumber>
+				<StartTime>
+					<Date>2017-10-21</Date>
+					<Clock>12:37:45</Clock>
+				</StartTime>
+				<FinishTime>
+					<Date>2017-10-21</Date>
+					<Clock>13:06:18</Clock>
+				</FinishTime>
+				<Time>28:33</Time>
+				<ResultPosition>8</ResultPosition>
+				<TeamStatus value="OK"/>
+				<TeamMemberResult>
+					<Person sex="M">
+						<PersonName>
+							<Family>Alinder</Family>
+							<Given sequence="1">Fabian</Given>
+						</PersonName>
+						<PersonId>74056</PersonId>
+						<BirthDate>
+							<Date>2005-01-01</Date>
+						</BirthDate>
+						<Nationality>
+							<Country>
+								<CountryId value="752"/>
+								<Alpha3 value="SWE"/>
+								<Name languageId="sv">Sverige</Name>
+								<Name languageId="en">Sweden</Name>
+							</Country>
+						</Nationality>
+					</Person>
+					<Organisation>
+						<OrganisationId>321</OrganisationId>
+						<Name>Sjövalla FK</Name>
+						<ShortName>Sjövalla FK</ShortName>
+						<OrganisationTypeId>5</OrganisationTypeId>
+					</Organisation>
+					<Leg>2</Leg>
+					<LegOrder>1</LegOrder>
+					<BibNumber>13</BibNumber>
+					<StartTime>
+						<Date>2017-10-21</Date>
+						<Clock>12:37:45</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-10-21</Date>
+						<Clock>13:06:18</Clock>
+					</FinishTime>
+					<Time>28:33</Time>
+					<TimeBehind type="Leg">228</TimeBehind>
+					<Position type="Leg">4</Position>
+					<CompetitorStatus value="OK"/>
+					<OverallResult>
+						<Time>1:06:18</Time>
+						<ResultPosition>8</ResultPosition>
+						<TeamStatus value="OK"/>
+					</OverallResult>
+				</TeamMemberResult>
+			</TeamResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15252</EventId>
+			<Name>GMOK Höstmedel</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-10-22</Date>
+				<Clock>11:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-10-22</Date>
+				<Clock>11:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>582</OrganisationId>
+					<Name>Göteborg-Majorna OK</Name>
+					<ShortName>Göteborg-Majorna OK</ShortName>
+					<MediaName>Göteborg-Majorna OK</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-02-14</Date>
+						<Clock>06:45:46</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Middle" raceLightCondition="Day">
+				<EventRaceId>16094</EventRaceId>
+				<EventId>15252</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-10-22</Date>
+					<Clock>11:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.0575" y="57.71231"/>
+			</EventRace>
+			<WebURL>http://www.gmok.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-10-27</Date>
+				<Clock>11:07:08</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>1884</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="45" numberOfStarts="36">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="45" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>307299</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="45" noOfStarts="36">
+					<EventRaceId>16094</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3473715</ResultId>
+					<StartTime>
+						<Date>2017-10-22</Date>
+						<Clock>11:34:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-10-22</Date>
+						<Clock>11:50:16</Clock>
+					</FinishTime>
+					<Time>16:16</Time>
+					<TimeDiff>1:24</TimeDiff>
+					<ResultPosition>2</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-10-27</Date>
+						<Clock>11:06:59</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="RelaySingleDay">
+			<EventId>17063</EventId>
+			<Name>Smålandskavlen</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-10-28</Date>
+				<Clock>18:30:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-10-29</Date>
+				<Clock>14:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>37</OrganisationId>
+					<Name>SOK Aneby</Name>
+					<ShortName>SOK Aneby</ShortName>
+					<MediaName>Skid- och Orienteringsklubben Aneby</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>87</OrganisationId>
+					<Name>Eksjö SOK</Name>
+					<ShortName>Eksjö SOK</ShortName>
+					<MediaName>Eksjö Skid o Orienteringsklubb</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="DayAndNight">
+				<EventRaceId>17960</EventRaceId>
+				<EventId>17063</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-10-28</Date>
+					<Clock>18:30:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="14.82181" y="57.83477"/>
+			</EventRace>
+			<WebURL>http://www.smalandskavlen.nu</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-11-01</Date>
+				<Clock>21:18:42</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>1380</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="25" numberOfStarts="25">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="25" numberOfLegs="3" sequence="60" sex="B" teamEntry="Y" timePresentation="Y">
+				<EventClassId>306162</EventClassId>
+				<Name>HD12</Name>
+				<ClassShortName>HD12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<ExternalId>60</ExternalId>
+				<ClassRaceInfo noOfEntries="25" noOfStarts="24">
+					<EventRaceId>17960</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<TeamResult>
+				<TeamName>Hestra IF / Sjövalla FK 1</TeamName>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>147</OrganisationId>
+					<Name>Hestra IF</Name>
+					<ShortName>Hestra IF</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<BibNumber>522</BibNumber>
+				<StartTime>
+					<Date>2017-10-29</Date>
+					<Clock>10:39:03</Clock>
+				</StartTime>
+				<FinishTime>
+					<Date>2017-10-29</Date>
+					<Clock>11:04:38</Clock>
+				</FinishTime>
+				<Time>25:35</Time>
+				<ResultPosition>5</ResultPosition>
+				<TeamStatus value="OK"/>
+				<TeamMemberResult>
+					<Person sex="M">
+						<PersonName>
+							<Family>Alinder</Family>
+							<Given sequence="1">Fabian</Given>
+						</PersonName>
+						<PersonId>74056</PersonId>
+						<BirthDate>
+							<Date>2005-01-01</Date>
+						</BirthDate>
+						<Nationality>
+							<Country>
+								<CountryId value="752"/>
+								<Alpha3 value="SWE"/>
+								<Name languageId="sv">Sverige</Name>
+								<Name languageId="en">Sweden</Name>
+							</Country>
+						</Nationality>
+					</Person>
+					<Organisation>
+						<OrganisationId>321</OrganisationId>
+						<Name>Sjövalla FK</Name>
+						<ShortName>Sjövalla FK</ShortName>
+						<OrganisationTypeId>5</OrganisationTypeId>
+					</Organisation>
+					<Leg>3</Leg>
+					<LegOrder>1</LegOrder>
+					<BibNumber>522</BibNumber>
+					<StartTime>
+						<Date>2017-10-29</Date>
+						<Clock>10:39:03</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-10-29</Date>
+						<Clock>11:04:38</Clock>
+					</FinishTime>
+					<Time>25:35</Time>
+					<TimeBehind type="Leg">457</TimeBehind>
+					<Position type="Leg">8</Position>
+					<CompetitorStatus value="OK"/>
+					<OverallResult>
+						<Time>1:04:38</Time>
+						<ResultPosition>5</ResultPosition>
+						<TeamStatus value="OK"/>
+					</OverallResult>
+				</TeamMemberResult>
+			</TeamResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15527</EventId>
+			<Name>O-event, dag 1, Sprint by Night</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-11-10</Date>
+				<Clock>20:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-11-10</Date>
+				<Clock>22:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>55</OrganisationId>
+					<Name>Borås GIF</Name>
+					<ShortName>Borås GIF</ShortName>
+					<MediaName>Borås Gymnastik o Idrottsförening</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-12-26</Date>
+						<Clock>18:25:12</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Sprint" raceLightCondition="Night">
+				<EventRaceId>16376</EventRaceId>
+				<EventId>15527</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-11-10</Date>
+					<Clock>20:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.9346" y="57.73448"/>
+			</EventRace>
+			<WebURL>http://www.o-event.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-11-11</Date>
+				<Clock>16:09:21</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>1561</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="73" numberOfStarts="70">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="73" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>306125</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="73" noOfStarts="70">
+					<EventRaceId>16376</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3482621</ResultId>
+					<StartTime>
+						<Date>2017-11-10</Date>
+						<Clock>20:37:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-11-10</Date>
+						<Clock>20:48:45</Clock>
+					</FinishTime>
+					<Time>11:45</Time>
+					<TimeDiff>0:16</TimeDiff>
+					<ResultPosition>2</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-11-11</Date>
+						<Clock>16:09:12</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15526</EventId>
+			<Name>O-event, dag 2, Downhill Sprint</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-11-11</Date>
+				<Clock>10:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-11-11</Date>
+				<Clock>10:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>147</OrganisationId>
+					<Name>Hestra IF</Name>
+					<ShortName>Hestra IF</ShortName>
+					<MediaName>Hestra Idrottsförening</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2018-05-16</Date>
+						<Clock>05:01:03</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Sprint" raceLightCondition="Day">
+				<EventRaceId>16375</EventRaceId>
+				<EventId>15526</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-11-11</Date>
+					<Clock>10:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.93453" y="57.7344"/>
+			</EventRace>
+			<WebURL>http://www.o-event.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-11-13</Date>
+				<Clock>20:23:39</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>3048</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="75" numberOfStarts="74">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="75" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>305810</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="75" noOfStarts="74">
+					<EventRaceId>16375</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3485456</ResultId>
+					<StartTime>
+						<Date>2017-11-11</Date>
+						<Clock>10:54:30</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-11-11</Date>
+						<Clock>11:06:11</Clock>
+					</FinishTime>
+					<Time>11:41</Time>
+					<TimeDiff>1:02</TimeDiff>
+					<ResultPosition>5</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-11-13</Date>
+						<Clock>20:23:27</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>15402</EventId>
+			<Name>O-event, dag 3, Zoorientering</Name>
+			<EventClassificationId>2</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-11-12</Date>
+				<Clock>00:00:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-11-12</Date>
+				<Clock>00:00:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>454</OrganisationId>
+					<Name>IK Ymer</Name>
+					<ShortName>IK Ymer</ShortName>
+					<MediaName>Idrottsklubben Ymer</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-12-05</Date>
+						<Clock>13:43:35</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Sprint" raceLightCondition="Day">
+				<EventRaceId>16246</EventRaceId>
+				<EventId>15402</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-11-12</Date>
+					<Clock>00:00:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="12.94138" y="57.74027"/>
+			</EventRace>
+			<WebURL>http://www.o-event.se</WebURL>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-11-19</Date>
+				<Clock>20:26:45</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>20116</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult>
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>305930</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo>
+					<EventRaceId>16246</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+				</Organisation>
+				<Result>
+					<ResultId>3487386</ResultId>
+					<StartTime>
+						<Date>2017-11-12</Date>
+						<Clock>12:03:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-11-12</Date>
+						<Clock>12:09:03</Clock>
+					</FinishTime>
+					<Time>6:03</Time>
+					<TimeDiff>0:00</TimeDiff>
+					<ResultPosition>1</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-11-15</Date>
+						<Clock>20:12:31</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+	<ResultList>
+		<Event eventForm="IndSingleDay">
+			<EventId>20197</EventId>
+			<Name>Närnatt Cup, etapp 4</Name>
+			<EventClassificationId>4</EventClassificationId>
+			<EventStatusId>9</EventStatusId>
+			<StartDate>
+				<Date>2017-11-30</Date>
+				<Clock>18:30:00</Clock>
+			</StartDate>
+			<FinishDate>
+				<Date>2017-11-30</Date>
+				<Clock>20:30:00</Clock>
+			</FinishDate>
+			<Organiser>
+				<Organisation>
+					<OrganisationId>13</OrganisationId>
+					<Name>Göteborgs Orienteringsförbund</Name>
+					<ShortName>Göteborgs Orienteringsförbund</ShortName>
+					<MediaName>Göteborgs Orienteringsförbund</MediaName>
+					<OrganisationTypeId>2</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-09-11</Date>
+						<Clock>11:08:43</Clock>
+					</ModifyDate>
+				</Organisation>
+				<Organisation>
+					<OrganisationId>563</OrganisationId>
+					<Name>Frölunda OL</Name>
+					<ShortName>Frölunda OL</ShortName>
+					<MediaName>Frölunda Orienteringslöpare</MediaName>
+					<OrganisationTypeId>3</OrganisationTypeId>
+					<CountryId value="752"/>
+					<ModifyDate>
+						<Date>2017-01-16</Date>
+						<Clock>08:52:20</Clock>
+					</ModifyDate>
+				</Organisation>
+			</Organiser>
+			<EventRace raceDistance="Long" raceLightCondition="Night">
+				<EventRaceId>21189</EventRaceId>
+				<EventId>20197</EventId>
+				<Name/>
+				<RaceDate>
+					<Date>2017-11-30</Date>
+					<Clock>18:30:00</Clock>
+				</RaceDate>
+				<EventCenterPosition unit="WGS-84" x="11.96598" y="57.62874"/>
+			</EventRace>
+			<PunchingUnitType value="SI"/>
+			<ModifyDate>
+				<Date>2017-11-30</Date>
+				<Clock>22:42:04</Clock>
+			</ModifyDate>
+			<ModifiedBy>
+				<PersonId>30424</PersonId>
+			</ModifiedBy>
+		</Event>
+		<ClassResult numberOfEntries="17" numberOfStarts="13">
+			<EventClass allowEntryInAdvance="Y" highAge="12" numberInTeam="1" numberOfEntries="17" numberOfLegs="1" sequence="280" sex="M" teamEntry="N" timePresentation="Y">
+				<EventClassId>307083</EventClassId>
+				<Name>H12</Name>
+				<ClassShortName>H12</ClassShortName>
+				<EventClassStatus value="normal"/>
+				<ClassTypeId>17</ClassTypeId>
+				<BaseClassId>31</BaseClassId>
+				<ClassRaceInfo noOfEntries="17" noOfStarts="13">
+					<EventRaceId>21189</EventRaceId>
+					<Name/>
+				</ClassRaceInfo>
+			</EventClass>
+			<PersonResult>
+				<Person sex="M">
+					<PersonName>
+						<Family>Alinder</Family>
+						<Given sequence="1">Fabian</Given>
+					</PersonName>
+					<PersonId>74056</PersonId>
+					<BirthDate>
+						<Date>2005-01-01</Date>
+					</BirthDate>
+					<Nationality>
+						<Country>
+							<CountryId value="752"/>
+							<Alpha3 value="SWE"/>
+							<Name languageId="sv">Sverige</Name>
+							<Name languageId="en">Sweden</Name>
+						</Country>
+					</Nationality>
+				</Person>
+				<Organisation>
+					<OrganisationId>321</OrganisationId>
+					<Name>Sjövalla FK</Name>
+					<ShortName>Sjövalla FK</ShortName>
+					<OrganisationTypeId>5</OrganisationTypeId>
+					<CountryId value="752"/>
+				</Organisation>
+				<Result>
+					<ResultId>3501721</ResultId>
+					<CCardId>8050909</CCardId>
+					<StartTime>
+						<Date>2017-11-30</Date>
+						<Clock>18:47:00</Clock>
+					</StartTime>
+					<FinishTime>
+						<Date>2017-11-30</Date>
+						<Clock>19:04:50</Clock>
+					</FinishTime>
+					<Time>17:50</Time>
+					<TimeDiff>1:39</TimeDiff>
+					<ResultPosition>4</ResultPosition>
+					<CompetitorStatus value="OK"/>
+					<ModifyDate>
+						<Date>2017-11-30</Date>
+						<Clock>22:42:01</Clock>
+					</ModifyDate>
+				</Result>
+			</PersonResult>
+		</ClassResult>
+	</ResultList>
+</ResultListList>

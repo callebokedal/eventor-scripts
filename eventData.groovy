@@ -148,7 +148,7 @@ https://eventor.orientering.se/Events?startDate=2017-09-23&endDate=2017-11-29&or
 def url = (endPoint + "?fromDate=" + fromDate.format("YYYY-MM-dd") + "&toDate=" + toDate.format("YYYY-MM-dd")
 	+ "&classificationIds=" + commaSeparated(cidNational, cidChampionship, cidState, cidClub, cidLocal)
 	//+ "&classificationIds=" + commaSeparated(cidClub, cidLocal)
-	// + "&includeAttributes=true"
+    + "&includeAttributes=true"
 	//+ "&organisations=13").toURL()
     + "&includeEntryBreaks=true"
 	+ "&organisationIds=" + localClubs).toURL()
