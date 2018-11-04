@@ -13,10 +13,29 @@ import java.util.concurrent.TimeUnit
  * Script to calulate medals according to "Tävlingsmärken och andra utmärkelser" from SOFT.
  *
  * Usage: 
- * 		groovy softMedals.groovy 
  *
- * Results can be retreived by:
- * 		curl -K api-config.txt 'https://eventor.orientering.se/api/results/organisation?organisationIds=321&eventId=22536' | xmllint --format - >> event-22536.xml
+ * Results for specific year:
+ * 		```groovy scripts/softMedals.groovy -a secret/apikey.txt -y 2017```
+ *
+ * Output with extra information:
+ * 		```groovy scripts/softMedals.groovy -a secret/apikey.txt -v```
+ *
+ * Output with debug information:
+ *		```groovy scripts/softMedals.groovy -a secret/apikey.txt -d```
+ *
+ * Colorized output:
+ * 		```groovy scripts/softMedals.groovy -a secret/apikey.txt -c```
+ *
+ * Parameters can als be combined 
+ * 		```groovy scripts/softMedals.groovy -a secret/apikey.txt -cdv -y 2017```
+ *
+ * Contents of apikey.txt is the secret api-key for your organization. Keep this secret in the 'secret/' folder
+ * If you have admin-role in Eventor -> Click "Administration" or visit page:
+ * https://eventor.orientering.se/OrganisationAdmin/Settings 
+ *
+ *
+ * Results can also be retreived/debugged with 'curl':
+ * 		curl -K api-config.txt 'https://eventor.orientering.se/api/results/organisation?organisationIds=321&eventId=22536' | xmllint --format - 
  *
  * Where api-config.txt contains info about the API-key
  * 		-H "ApiKey:...secret-key-here..."
@@ -631,9 +650,6 @@ assert "SPECIAL_14" == guessClassification("D14", "Sprint", "Sprint-KM för Land
 assert "SPECIAL_16_USM" == guessClassification("D16", "Sprint", "Ungdom-SM, sprint", "OK")
 
 
- // 2018-08-31 Ungdoms-SM, sprint → [pos: 46, status: OK, competitors: 98, raceDistance: Sprint, swe: true, individual: true, raceTime: 19:20, diff: 4:58, 
- //            Elit, 35 %, shortName: D16, highAge: 16, typeId: 17 https://eventor.orientering.se/Events/ResultList?eventId=16819&groupBy=EventClass ]
-
 def getMedal = {shortName, distance, eventName, percentage, status, competitors, swe, individual ->
 	debug("getMedal: " + shortName + ", " + distance + ", " + eventName, isDebug)
 	if(!individual || competitors.toInteger() < 2 || !swe) {
@@ -694,16 +710,14 @@ assert Medal.IRON == getMedal("D15","Long","Testtävling", 84,"OK", 10, true, tr
 assert Medal.BRONZE == getMedal("H14","Sprint","Sprint-KM för Landehof och Sjövalla", 44,"OK", 10, true, true)
 assert Medal.IRON == getMedal("H14","Sprint","Sprint-KM för Landehof och Sjövalla", 84,"OK", 10, true, true)
 
-//Mäster 2018-09-01 Ungdoms-SM, lång [D15]  → 24% https://eventor.orientering.se/Events/ResultList?eventId=16820&groupBy=EventClass
- 
-
 // List of personId's to exclude
-// For some reason Eventor returns these for Sjövalla
+// Persons added in IdrottOnline but does not compete for Sjövalla
 def eventorErrors = {
-	it.PersonId == 118002 // Filip Vallentin -> Göteborg-Majorna OK
+	it.PersonId == 118002 // F. V. 
 }
 
 // Conveniance method to only test certain persons
+// Uncomment desired row
 def testPersons = { 
 	true // Allow all persons, should be default when done
 	//it.PersonId == 168549 || it.PersonId == 163325 || it.PersonId == 120920 || 147715
@@ -724,7 +738,6 @@ sjovallaMembers.Person.findAll { isYouthAge(birthYearForPerson(it)) }.findAll{ !
 
 	// 1. Get all year events for current person
 	def personEvents = slurper.parseText(loadData("/api/results/person","personId=" + it.PersonId.text() + "&fromDate=" + year + "-01-01&toDate=" + year +"-12-31"))
-	//def personEvents = new XmlSlurper().parseText(loadData("/api/results/person","personId=" + it.PersonId.text() + "&fromDate=" + year + "-01-01&toDate=" + year +"-12-31&top=1"))
 
 	debug("" + colorize(it.PersonName.Given.text() + " " + it.PersonName.Family.text(), BLUE) + " (Born: " + birthYearForPerson(it) + ", " + getAge(birthYearForPerson(it)) 
 		+ " years, PersonId: " + it.PersonId.text() + ")", isDebug)
@@ -819,16 +832,6 @@ sjovallaMembers.Person.findAll { isYouthAge(birthYearForPerson(it)) }.findAll{ !
 
 		}
 	}
-
-	// Investigate valid events
-	/*personEvents.ResultList.findAll{ swedishOrganisationRule(it) && onlyIndividualRule(it) && numberOfCompetitorsRule(it) }.each{
-		if( isSingleDayEvent(it) ) {
-
-			println " - " + it.Event.Name.text() + " [status: " + it.ClassResult.PersonResult.Result.CompetitorStatus.@value.text() + "]"
-		} else {
-			// Assume multiday event/"IndMultiDay"
-		}
-	}*/
 
 	// Store all results
 	resultTable.add(person)
@@ -956,7 +959,6 @@ def duration = calculateDuration(startTime, endTime)
 debug("\nExecution time: " + colorize(duration, GREEN), true)
 
 debug("\nDone.")
-//System.exit(0)
 
 
 

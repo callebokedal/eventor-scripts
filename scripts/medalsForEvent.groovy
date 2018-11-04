@@ -153,7 +153,7 @@ def eventName = event.Event.Name.text()
 println ((" " + eventName + " ").center(45, "-"))
 
 event.ClassResult.each { ec ->
-	println "\n" + ec.EventClass.Name.text() + " - Sprint-KM 2018" 
+	println "\n" + ec.EventClass.Name.text() 
 
 	ec.PersonResult.eachWithIndex { pr, idx -> 
 		if( pr.Result.CompetitorStatus.@value == "OK" ) { // Check if valid status for current competitor 

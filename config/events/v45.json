@@ -8,5 +8,5 @@
     "output": "html",                   /* Output: text|html. text is default */
     "googleMapLink": true,              /* Link to Google maps or not*/
     "eventorMessage": false,            /* Include Eventor Message - if exists */
-    "verbose": false                    /* Verbose or not. Default: false. */
+    "verbose": true                    /* Verbose or not. Default: false. */
 }

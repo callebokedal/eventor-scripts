@@ -8,3 +8,7 @@ testXML.groovy
 sfk-config-calle.txt
 sfk-config-fabian.txt
 secret/
+tmp/
+docker-examples.txt
+cached/
+results/
