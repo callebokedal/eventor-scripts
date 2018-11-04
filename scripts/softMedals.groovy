@@ -15,19 +15,19 @@ import java.util.concurrent.TimeUnit
  * Usage: 
  *
  * Results for specific year:
- * 		```groovy scripts/softMedals.groovy -a secret/apikey.txt -y 2017```
+ * 		$ groovy scripts/softMedals.groovy -a secret/apikey.txt -y 2017
  *
  * Output with extra information:
- * 		```groovy scripts/softMedals.groovy -a secret/apikey.txt -v```
+ * 		$ groovy scripts/softMedals.groovy -a secret/apikey.txt -v
  *
  * Output with debug information:
- *		```groovy scripts/softMedals.groovy -a secret/apikey.txt -d```
+ *		$ groovy scripts/softMedals.groovy -a secret/apikey.txt -d
  *
  * Colorized output:
- * 		```groovy scripts/softMedals.groovy -a secret/apikey.txt -c```
+ * 		$ groovy scripts/softMedals.groovy -a secret/apikey.txt -c
  *
- * Parameters can als be combined 
- * 		```groovy scripts/softMedals.groovy -a secret/apikey.txt -cdv -y 2017```
+ * Parameters can also be combined 
+ * 		$ groovy scripts/softMedals.groovy -a secret/apikey.txt -cdv -y 2017
  *
  * Contents of apikey.txt is the secret api-key for your organization. Keep this secret in the 'secret/' folder
  * If you have admin-role in Eventor -> Click "Administration" or visit page:
@@ -35,9 +35,9 @@ import java.util.concurrent.TimeUnit
  *
  *
  * Results can also be retreived/debugged with 'curl':
- * 		curl -K api-config.txt 'https://eventor.orientering.se/api/results/organisation?organisationIds=321&eventId=22536' | xmllint --format - 
+ * 		$ curl -K secret/curl-api-config.txt 'https://eventor.orientering.se/api/results/organisation?organisationIds=321&eventId=22536' | xmllint --format - 
  *
- * Where api-config.txt contains info about the API-key
+ * Where curl-api-config.txt contains info about adding a (H)eader with the API-key
  * 		-H "ApiKey:...secret-key-here..."
  */
 
