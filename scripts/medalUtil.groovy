@@ -1,6 +1,8 @@
 
 /*
 
+Obsolete utility script. Keept for reference. See 'softMedals.groovy' instead.
+
 Soft rules 2018
 ---------------
 
