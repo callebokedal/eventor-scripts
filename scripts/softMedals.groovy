@@ -94,23 +94,7 @@ if (options.y && options.y.length() == 4 && year > options.y.toInteger()) {
 	year = options.y.toInteger()
 }
 
-//int limit = (options.l) ? options.l : 3 
 def slurper = new XmlSlurper()
-
-/* Rules
-
-- At least to competitors per race
-- Youth - 16 years or younger (?)
-
-*/
-
-/*new URL("http://stackoverflow.com")
-        .getText(connectTimeout: 5000, 
-                readTimeout: 10000, 
-                useCaches: true, 
-                allowUserInteraction: false, 
-                requestProperties: ['Connection': 'close'])
-*/
 
 // Debug if verbose or force is true
 def debug = {str, force=false -> if(isDebug || force) println str}
@@ -146,9 +130,11 @@ def isCached = { fileName ->
 	return false
 }
 
-// endPoint, ex: "/api/activities"
-// params, ex: "organisationId=321&from=2018-10-01&to=2018-11-01"
-// useCache: true/false, default true
+
+// Function to load and cache data. Don't forget to delete old cached files.
+//   endPoint, ex: "/api/activities"
+//   params, ex: "organisationId=321&from=2018-10-01&to=2018-11-01"
+//   useCache: true/false, default true
 def loadData = { endPoint, params, useCache=true -> 
 
 	debug(endPoint + params, isDebug)
@@ -159,8 +145,6 @@ def loadData = { endPoint, params, useCache=true ->
 		debug("Last modified: " + new Date(new File(cacheFileName).lastModified()))
 		return new File(cacheFileName).text
 	}
-	//writeToFile(cacheFileName, "test2")
-	//return ""
 
 	if(isOffline) {
 		// No file found and onnline mode
@@ -189,6 +173,7 @@ def loadData = { endPoint, params, useCache=true ->
 	}
 }
 
+// To be able to colorize output
 RED = "\033[0;31m"
 BLUE = "\033[0;34m"
 GREEN = "\033[0;32m"
@@ -213,27 +198,8 @@ def colorize = { str, color ->
 	}
 }
 
-//def activities = loadData("/api/activities", "organisationId=321&from=2018-10-01&to=2018-11-01")
-//println result
-
 def sjovallaMembers = slurper.parseText(loadData("/api/persons/organisations/" + sjovallaOrgId, "includeContactDetails=false"))
-///def sjovallaMembers = loadData("/api/persons/organisations/" + sjovallaOrgId, "includeContactDetails=false")
-///def event = new XmlSlurper().parseText(file.text)
 //debug(sjovallaMembers)
-
-
-// Debug XML-tree
-// TODO: Not done!
-/*def xmlDebug = { it ->
-	println it.name() + ", " + it.getClass()
-	it.children().each { it2 ->
-		println it2.name() + ", " + it2.getClass()
-		if(it2.getClass() instanceof groovy.util.slurpersupport.NodeChild)
-			return xmlDebug(it2)
-		else
-			println XmlUtil.serialize(it2)
-	}
-}*/
 
 // Return birth year given a Person-object
 def birthYearForPerson = { it -> it.BirthDate.Date.text().substring(0,4).toInteger() }
@@ -287,10 +253,7 @@ assert true == isMountainbikeEvent(slurper.parseText('<Root><Event><Name>MtbO, S
 // TODO: Missing rules:
 // "För att ta guldmärke, elitmärke och mästarmärke ska startmellanrummet vara minst en minut"
 // "Banan ska ha rätt svårighet för tävlingsklassen"
-
-// Calculation rule
 // "Vid uträkning av segrartid och ”procenttid” höjs överskjutande sekunder till närmast hela minut."
-
 
 // Rule: Race completed correct given race in ResultList
 def raceCompleted = { 
@@ -299,7 +262,7 @@ def raceCompleted = {
 	it.ClassResult.PersonResult.Result.CompetitorStatus.@value.text() == "OK" 
 }
 
-// Conveniance funtion to test if given Event is a single day event or not
+// Convenience funtion to test if given Event is a single day event or not
 def isSingleDayEvent = { it.Event.@eventForm.text() == "IndSingleDay" }
 assert true == isSingleDayEvent(slurper.parseText('<Root><Event eventForm="IndSingleDay">Testing</Event></Root>'))
 assert false == isSingleDayEvent(slurper.parseText('<Root><Event eventForm="IndMultiDay">Testing</Event></Root>'))
@@ -387,7 +350,7 @@ assert "00:10:00" == padTime("10:00") 		// -> 00: +
 assert "01:11:57" == padTime("1:11:57") 	// -> 0 +
 assert "01:00:00" == padTime("01:00:00")
 
-// Conveniance method to calculate millis from time string ("hh:mm:ss" -> milliseconds)
+// Convenience method to calculate millis from time string ("hh:mm:ss" -> milliseconds)
 def timeToMilliseconds = {
 	String t = padTime(it) // hh:mm:ss
 	return t.substring(0,2).toInteger() * 60 * 60 * 1000 + t.substring(3,5).toInteger() * 60 * 1000 + t.substring(6,8).toInteger() * 1000
@@ -464,7 +427,7 @@ def resultPositionForMultiDayEvent = {
 	}
 }
 
-// Conveniance method to default empty time values to "0"
+// Convenience method to default empty time values to "0"
 def defaultTime = { time ->
 	if(time == "") {
 		return "0:00"
@@ -716,7 +679,7 @@ def eventorErrors = {
 	it.PersonId == 118002 // F. V. 
 }
 
-// Conveniance method to only test certain persons
+// Convenience method to only test certain persons
 // Uncomment desired row
 def testPersons = { 
 	true // Allow all persons, should be default when done
@@ -741,8 +704,6 @@ sjovallaMembers.Person.findAll { isYouthAge(birthYearForPerson(it)) }.findAll{ !
 
 	debug("" + colorize(it.PersonName.Given.text() + " " + it.PersonName.Family.text(), BLUE) + " (Born: " + birthYearForPerson(it) + ", " + getAge(birthYearForPerson(it)) 
 		+ " years, PersonId: " + it.PersonId.text() + ")", isDebug)
-
-	//return
 
 	if(personEvents.children().size() == 0) {
 		debug("  Inga tävlingar registrerade under perioden", isDebug)
