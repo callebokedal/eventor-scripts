@@ -1,6 +1,6 @@
 # Eventor-skript
 
-Här är ett skript för att extrahera ut data från Eventor. För att göra det behöver man en API-nyckel. 
+Här är skript för att extrahera ut data från Eventor. För att göra det behöver man en API-nyckel. 
 
 ## Användning
 Man kan köra skript direkt med hjälp av Groovy eller med hjälp av Docker (då t.ex. Java-version blir korrekt automatiskt).
@@ -18,14 +18,18 @@ Sedan väljer du om du vill köra via groovy direkt eller indirekt med hjälp av
 
 ### Via Groovy (direkt)
 
-    $ groovy eventData.groovy --keyfile <apikey.txt> --config <config.json>
+#### Visa översikt för utmärkelser enligt SOFT och Sjövallas riktlinjer
+    $ groovy scripts/softMedals.groovy -a secret/apikey.txt
 
-    $ groovy eventData.groovy --keyfile apikey.txt --config config/events/allt.json
+#### Hämta data för ett event
+    $ groovy scripts/eventData.groovy --keyfile <apikey.txt> --config <config.json>
+    $ groovy scripts/eventData.groovy --keyfile secret/apikey.txt --config config/events/allt.json
 
 ### Via Docker
 (Se installation nedan först).
 
-    docker run -t --rm -v $(pwd -P):/home/groovy eventor-app groovy eventData.groovy --keyfile apikey.txt --config config/events/allt.json
+    $ docker run -t --rm -v $(pwd -P):/home/groovy eventor-app groovy scripts/softMedals.groovy -a secret/apikey.txt
+    $ docker run -t --rm -v $(pwd -P):/home/groovy eventor-app groovy scripts/eventData.groovy --keyfile secret/apikey.txt --config config/events/allt.json
 
 ## API-fil
 
