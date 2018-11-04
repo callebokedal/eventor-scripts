@@ -1,0 +1,12 @@
+# Returnerar alla personer som är medlemmar i Sjövalla.
+# https://eventor.orientering.se/api/persons/organisations/{organisationId}
+curl -s -K api-config.txt https://eventor.orientering.se/api/persons/organisations/321 | xmllint --format -
+
+# Returnerar tävlingsinställningar (bricknummer, förvalda klasser) för alla personer som angett detta i en organisation.
+curl -s -K api-config.txt https://eventor.orientering.se/api/competitors | xmllint --format -
+
+# Get a specific person
+curl -s -K api-config.txt https://eventor.orientering.se/api/competitor/163310 | xmllint --format -
+
+# Activitites for a specified time period
+curl -s -K api-config.txt 'https://eventor.orientering.se/api/activities?organisationId=321&from=2017-10-01&to=2017-12-31&includeRegistrations=false' | xmllint --format -

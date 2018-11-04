@@ -1,0 +1,2577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResultList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Event eventForm="IndSingleDay">
+    <EventId>22536</EventId>
+    <Name>Sprint-KM för Landehof och Sjövalla</Name>
+    <EventClassificationId>5</EventClassificationId>
+    <EventStatusId>9</EventStatusId>
+    <StartDate>
+      <Date>2018-06-06</Date>
+      <Clock>10:30:00</Clock>
+    </StartDate>
+    <FinishDate>
+      <Date>2018-06-06</Date>
+      <Clock>10:30:00</Clock>
+    </FinishDate>
+    <Organiser>
+      <Organisation>
+        <OrganisationId>230</OrganisationId>
+        <Name>OK Landehof</Name>
+        <ShortName>OK Landehof</ShortName>
+        <MediaName>Orienteringsklubben Landehof</MediaName>
+        <OrganisationTypeId>3</OrganisationTypeId>
+        <CountryId value="752"/>
+        <ModifyDate>
+          <Date>2017-12-11</Date>
+          <Clock>22:01:59</Clock>
+        </ModifyDate>
+      </Organisation>
+    </Organiser>
+    <EventRace raceLightCondition="Day" raceDistance="Sprint">
+      <EventRaceId>23603</EventRaceId>
+      <EventId>22536</EventId>
+      <Name/>
+      <RaceDate>
+        <Date>2018-06-06</Date>
+        <Clock>10:30:00</Clock>
+      </RaceDate>
+      <EventCenterPosition x="12.21558" y="57.69392" unit="WGS-84"/>
+    </EventRace>
+    <PunchingUnitType value="SI"/>
+    <ModifyDate>
+      <Date>2018-06-06</Date>
+      <Clock>11:36:07</Clock>
+    </ModifyDate>
+    <ModifiedBy>
+      <PersonId>101705</PersonId>
+    </ModifiedBy>
+  </Event>
+  <ClassResult numberOfEntries="25" numberOfStarts="24">
+    <EventClass sequence="230" sex="F" numberInTeam="1" teamEntry="N" numberOfLegs="1" numberOfEntries="25" timePresentation="Y" allowEntryInAdvance="Y">
+      <EventClassId>335750</EventClassId>
+      <Name>D15-49</Name>
+      <ClassShortName>D15-49</ClassShortName>
+      <EventClassStatus value="normal"/>
+      <ClassTypeId>17</ClassTypeId>
+      <ExternalId>100</ExternalId>
+      <PunchingUnitType value="SI"/>
+      <ClassRaceInfo noOfEntries="25" noOfStarts="24">
+        <EventRaceId>23603</EventRaceId>
+        <Name/>
+      </ClassRaceInfo>
+    </EventClass>
+    <PersonResult>
+      <Person sex="F">
+        <PersonName>
+          <Family>Alinder</Family>
+          <Given sequence="1">Eleonora</Given>
+        </PersonName>
+        <PersonId>74055</PersonId>
+        <BirthDate>
+          <Date>2003-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506156</ResultId>
+        <CCardId>8030512</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:46:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:01:19</Clock>
+        </FinishTime>
+        <Time>15:19</Time>
+        <TimeDiff>0:00</TimeDiff>
+        <ResultPosition>1</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person>
+        <PersonName>
+          <Family>Holmqvist</Family>
+          <Given sequence="1">Maria</Given>
+        </PersonName>
+        <PersonId>3350</PersonId>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506158</ResultId>
+        <CCardId>9750325</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:54:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:10:03</Clock>
+        </FinishTime>
+        <Time>16:03</Time>
+        <TimeDiff>0:44</TimeDiff>
+        <ResultPosition>3</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:37:21</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="F">
+        <PersonName>
+          <Family>Ljungberg</Family>
+          <Given sequence="1">Märta</Given>
+        </PersonName>
+        <PersonId>27754</PersonId>
+        <BirthDate>
+          <Date>2002-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506159</ResultId>
+        <CCardId>9020219</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:34:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:50:34</Clock>
+        </FinishTime>
+        <Time>16:34</Time>
+        <TimeDiff>1:15</TimeDiff>
+        <ResultPosition>4</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person>
+        <PersonName>
+          <Family>Svarfvar</Family>
+          <Given sequence="1">Anna</Given>
+        </PersonName>
+        <PersonId>122018</PersonId>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506160</ResultId>
+        <CCardId>264137</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:08:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:25:46</Clock>
+        </FinishTime>
+        <Time>17:46</Time>
+        <TimeDiff>2:27</TimeDiff>
+        <ResultPosition>5</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:37:21</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="F">
+        <PersonName>
+          <Family>Fuxborg</Family>
+          <Given sequence="1">Åse</Given>
+        </PersonName>
+        <PersonId>21250</PersonId>
+        <BirthDate>
+          <Date>1970-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506165</ResultId>
+        <CCardId>209738</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:50:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:09:09</Clock>
+        </FinishTime>
+        <Time>19:09</Time>
+        <TimeDiff>3:50</TimeDiff>
+        <ResultPosition>10</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="F">
+        <PersonName>
+          <Family>Lundstedt</Family>
+          <Given sequence="1">Olivia</Given>
+        </PersonName>
+        <PersonId>71027</PersonId>
+        <BirthDate>
+          <Date>2003-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506166</ResultId>
+        <CCardId>8030518</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:01:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:20:33</Clock>
+        </FinishTime>
+        <Time>19:33</Time>
+        <TimeDiff>4:14</TimeDiff>
+        <ResultPosition>11</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="F">
+        <PersonName>
+          <Family>Wedberg-Kilnäs</Family>
+          <Given sequence="1">Linnea</Given>
+        </PersonName>
+        <PersonId>33657</PersonId>
+        <BirthDate>
+          <Date>2002-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506168</ResultId>
+        <CCardId>2078174</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:42:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:01:53</Clock>
+        </FinishTime>
+        <Time>19:53</Time>
+        <TimeDiff>4:34</TimeDiff>
+        <ResultPosition>13</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="F">
+        <PersonName>
+          <Family>Hedenblom</Family>
+          <Given sequence="1">Linda</Given>
+        </PersonName>
+        <PersonId>36175</PersonId>
+        <BirthDate>
+          <Date>1975-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506170</ResultId>
+        <CCardId>11394</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:30:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:50:50</Clock>
+        </FinishTime>
+        <Time>20:50</Time>
+        <TimeDiff>5:31</TimeDiff>
+        <ResultPosition>15</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="F">
+        <PersonName>
+          <Family>Höglund</Family>
+          <Given sequence="1">Maria</Given>
+        </PersonName>
+        <PersonId>118533</PersonId>
+        <BirthDate>
+          <Date>1977-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506175</ResultId>
+        <CCardId>7771106</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:38:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:00:49</Clock>
+        </FinishTime>
+        <Time>22:49</Time>
+        <TimeDiff>7:30</TimeDiff>
+        <ResultPosition>20</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person>
+        <PersonName>
+          <Family>Svarfvar</Family>
+          <Given sequence="1">Charlotta</Given>
+        </PersonName>
+        <PersonId>133180</PersonId>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506177</ResultId>
+        <CCardId>2088308</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:58:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:21:14</Clock>
+        </FinishTime>
+        <Time>23:14</Time>
+        <TimeDiff>7:55</TimeDiff>
+        <ResultPosition>22</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:37:21</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="F">
+        <PersonName>
+          <Family>Andersson</Family>
+          <Given sequence="1">Malin</Given>
+        </PersonName>
+        <PersonId>160223</PersonId>
+        <BirthDate>
+          <Date>1978-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506179</ResultId>
+        <CCardId>2125964</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:03:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:32:32</Clock>
+        </FinishTime>
+        <Time>29:32</Time>
+        <TimeDiff>14:13</TimeDiff>
+        <ResultPosition>24</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+  </ClassResult>
+  <ClassResult numberOfEntries="25" numberOfStarts="24">
+    <EventClass sequence="240" sex="M" numberInTeam="1" teamEntry="N" numberOfLegs="1" numberOfEntries="25" timePresentation="Y" allowEntryInAdvance="Y">
+      <EventClassId>335743</EventClassId>
+      <Name>H15-49</Name>
+      <ClassShortName>H15-49</ClassShortName>
+      <EventClassStatus value="normal"/>
+      <ClassTypeId>17</ClassTypeId>
+      <ExternalId>99</ExternalId>
+      <PunchingUnitType value="SI"/>
+      <ClassRaceInfo noOfEntries="25" noOfStarts="24">
+        <EventRaceId>23603</EventRaceId>
+        <Name/>
+      </ClassRaceInfo>
+    </EventClass>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Alinder</Family>
+          <Given sequence="1">Magnus</Given>
+        </PersonName>
+        <PersonId>128381</PersonId>
+        <BirthDate>
+          <Date>1975-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506133</ResultId>
+        <CCardId>2078298</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:31:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:48:03</Clock>
+        </FinishTime>
+        <Time>17:03</Time>
+        <TimeDiff>1:56</TimeDiff>
+        <ResultPosition>3</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Wahlgren</Family>
+          <Given sequence="1">Per-Arne</Given>
+        </PersonName>
+        <PersonId>23876</PersonId>
+        <BirthDate>
+          <Date>1962-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506142</ResultId>
+        <CCardId>620305</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:33:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:51:30</Clock>
+        </FinishTime>
+        <Time>18:30</Time>
+        <TimeDiff>3:23</TimeDiff>
+        <ResultPosition>12</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Söderberg</Family>
+          <Given sequence="1">Per</Given>
+        </PersonName>
+        <PersonId>32464</PersonId>
+        <BirthDate>
+          <Date>1971-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506145</ResultId>
+        <CCardId>37321</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:46:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:05:33</Clock>
+        </FinishTime>
+        <Time>19:33</Time>
+        <TimeDiff>4:26</TimeDiff>
+        <ResultPosition>15</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Wennberg</Family>
+          <Given sequence="1">Markus</Given>
+        </PersonName>
+        <PersonId>169950</PersonId>
+        <BirthDate>
+          <Date>1974-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506146</ResultId>
+        <CCardId>1974918</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:41:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:00:38</Clock>
+        </FinishTime>
+        <Time>19:38</Time>
+        <TimeDiff>4:31</TimeDiff>
+        <ResultPosition>16</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Essunger</Family>
+          <Given sequence="1">Henrik</Given>
+        </PersonName>
+        <PersonId>106983</PersonId>
+        <BirthDate>
+          <Date>1971-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506147</ResultId>
+        <CCardId>446257</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:47:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:07:20</Clock>
+        </FinishTime>
+        <Time>20:20</Time>
+        <TimeDiff>5:13</TimeDiff>
+        <ResultPosition>17</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Holmqvist</Family>
+          <Given sequence="1">Wilmer</Given>
+        </PersonName>
+        <PersonId>51913</PersonId>
+        <BirthDate>
+          <Date>2002-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506148</ResultId>
+        <CCardId>444022</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:39:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:00:39</Clock>
+        </FinishTime>
+        <Time>21:39</Time>
+        <TimeDiff>6:32</TimeDiff>
+        <ResultPosition>18</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Olofsson</Family>
+          <Given sequence="1">Staffan</Given>
+        </PersonName>
+        <PersonId>112890</PersonId>
+        <BirthDate>
+          <Date>1969-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506149</ResultId>
+        <CCardId>2058286</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:35:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:56:50</Clock>
+        </FinishTime>
+        <Time>21:50</Time>
+        <TimeDiff>6:43</TimeDiff>
+        <ResultPosition>19</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Granhage</Family>
+          <Given sequence="1">Niklas</Given>
+        </PersonName>
+        <PersonId>116526</PersonId>
+        <BirthDate>
+          <Date>1973-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506150</ResultId>
+        <CCardId>2057378</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:49:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:11:01</Clock>
+        </FinishTime>
+        <Time>22:01</Time>
+        <TimeDiff>6:54</TimeDiff>
+        <ResultPosition>20</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Björkman</Family>
+          <Given sequence="1">Carl</Given>
+        </PersonName>
+        <PersonId>168848</PersonId>
+        <BirthDate>
+          <Date>2002-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506151</ResultId>
+        <CCardId>2079757</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:45:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:14:24</Clock>
+        </FinishTime>
+        <Time>29:24</Time>
+        <TimeDiff>14:17</TimeDiff>
+        <ResultPosition>21</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Andersson</Family>
+          <Given sequence="1">Martin</Given>
+        </PersonName>
+        <PersonId>88285</PersonId>
+        <BirthDate>
+          <Date>1979-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506153</ResultId>
+        <CCardId>9790201</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:43:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:04:30</Clock>
+        </FinishTime>
+        <Time>21:30</Time>
+        <CompetitorStatus value="MisPunch"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Svarfvar</Family>
+          <Given sequence="1">Oskar</Given>
+        </PersonName>
+        <PersonId>133181</PersonId>
+        <BirthDate>
+          <Date>1975-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506154</ResultId>
+        <CCardId>2088307</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:37:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:56:23</Clock>
+        </FinishTime>
+        <Time>19:23</Time>
+        <CompetitorStatus value="MisPunch"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+  </ClassResult>
+  <ClassResult numberOfEntries="13" numberOfStarts="13">
+    <EventClass highAge="14" sequence="260" sex="M" numberInTeam="1" teamEntry="N" numberOfLegs="1" numberOfEntries="13" timePresentation="Y" allowEntryInAdvance="Y">
+      <EventClassId>335745</EventClassId>
+      <Name>H14</Name>
+      <ClassShortName>H14</ClassShortName>
+      <EventClassStatus value="normal"/>
+      <ClassTypeId>17</ClassTypeId>
+      <BaseClassId>30</BaseClassId>
+      <ExternalId>0</ExternalId>
+      <PunchingUnitType value="SI"/>
+      <ClassRaceInfo noOfEntries="13" noOfStarts="13">
+        <EventRaceId>23603</EventRaceId>
+        <Name/>
+      </ClassRaceInfo>
+    </EventClass>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Alinder</Family>
+          <Given sequence="1">Fabian</Given>
+        </PersonName>
+        <PersonId>74056</PersonId>
+        <BirthDate>
+          <Date>2005-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506078</ResultId>
+        <CCardId>8050909</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:51:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:03:47</Clock>
+        </FinishTime>
+        <Time>12:47</Time>
+        <TimeDiff>0:15</TimeDiff>
+        <ResultPosition>2</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Holmqvist</Family>
+          <Given sequence="1">Ebbe</Given>
+        </PersonName>
+        <PersonId>51919</PersonId>
+        <BirthDate>
+          <Date>2004-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506081</ResultId>
+        <CCardId>444023</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:47:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:02:12</Clock>
+        </FinishTime>
+        <Time>15:12</Time>
+        <TimeDiff>2:40</TimeDiff>
+        <ResultPosition>5</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Alinder</Family>
+          <Given sequence="1">Linus</Given>
+        </PersonName>
+        <PersonId>74057</PersonId>
+        <BirthDate>
+          <Date>2005-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506082</ResultId>
+        <CCardId>8050900</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:35:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:50:57</Clock>
+        </FinishTime>
+        <Time>15:57</Time>
+        <TimeDiff>3:25</TimeDiff>
+        <ResultPosition>6</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Erefalk</Family>
+          <Given sequence="1">Noah</Given>
+        </PersonName>
+        <PersonId>147715</PersonId>
+        <BirthDate>
+          <Date>2005-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506084</ResultId>
+        <CCardId>2122037</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:31:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:50:01</Clock>
+        </FinishTime>
+        <Time>19:01</Time>
+        <TimeDiff>6:29</TimeDiff>
+        <ResultPosition>8</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Granhage</Family>
+          <Given sequence="1">Adam</Given>
+        </PersonName>
+        <PersonId>114087</PersonId>
+        <BirthDate>
+          <Date>2005-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506085</ResultId>
+        <CCardId>2058274</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:55:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:15:08</Clock>
+        </FinishTime>
+        <Time>20:08</Time>
+        <TimeDiff>7:36</TimeDiff>
+        <ResultPosition>9</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Björkman</Family>
+          <Given sequence="1">Axel</Given>
+        </PersonName>
+        <PersonId>120920</PersonId>
+        <BirthDate>
+          <Date>2004-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506088</ResultId>
+        <CCardId>2112553</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:39:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:11:15</Clock>
+        </FinishTime>
+        <Time>32:15</Time>
+        <TimeDiff>19:43</TimeDiff>
+        <ResultPosition>12</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Essunger</Family>
+          <Given sequence="1">Hannes</Given>
+        </PersonName>
+        <PersonId>70083</PersonId>
+        <BirthDate>
+          <Date>2004-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506089</ResultId>
+        <CCardId>8001004</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:43:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:56:40</Clock>
+        </FinishTime>
+        <Time>13:40</Time>
+        <CompetitorStatus value="MisPunch"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+  </ClassResult>
+  <ClassResult numberOfEntries="8" numberOfStarts="6">
+    <EventClass highAge="12" sequence="270" sex="F" numberInTeam="1" teamEntry="N" numberOfLegs="1" numberOfEntries="8" timePresentation="Y" allowEntryInAdvance="Y">
+      <EventClassId>335746</EventClassId>
+      <Name>D12</Name>
+      <ClassShortName>D12</ClassShortName>
+      <EventClassStatus value="normal"/>
+      <ClassTypeId>17</ClassTypeId>
+      <BaseClassId>56</BaseClassId>
+      <ExternalId>0</ExternalId>
+      <PunchingUnitType value="SI"/>
+      <ClassRaceInfo noOfEntries="8" noOfStarts="6">
+        <EventRaceId>23603</EventRaceId>
+        <Name/>
+      </ClassRaceInfo>
+    </EventClass>
+    <PersonResult>
+      <Person sex="F">
+        <PersonName>
+          <Family>Wedberg-Kilnäs</Family>
+          <Given sequence="1">Tove</Given>
+        </PersonName>
+        <PersonId>70972</PersonId>
+        <BirthDate>
+          <Date>2006-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506113</ResultId>
+        <CCardId>446217</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:35:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:46:13</Clock>
+        </FinishTime>
+        <Time>11:13</Time>
+        <TimeDiff>0:00</TimeDiff>
+        <ResultPosition>1</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="F">
+        <PersonName>
+          <Family>Holmqvist</Family>
+          <Given sequence="1">Emelina</Given>
+        </PersonName>
+        <PersonId>86710</PersonId>
+        <BirthDate>
+          <Date>2007-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506114</ResultId>
+        <CCardId>450117</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:39:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:50:16</Clock>
+        </FinishTime>
+        <Time>11:16</Time>
+        <TimeDiff>0:03</TimeDiff>
+        <ResultPosition>2</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="F">
+        <PersonName>
+          <Family>Wedberg-Kilnäs</Family>
+          <Given sequence="1">Klara</Given>
+        </PersonName>
+        <PersonId>70973</PersonId>
+        <BirthDate>
+          <Date>2006-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506117</ResultId>
+        <CCardId>446206</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:31:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:44:49</Clock>
+        </FinishTime>
+        <Time>13:49</Time>
+        <TimeDiff>2:36</TimeDiff>
+        <ResultPosition>5</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+  </ClassResult>
+  <ClassResult numberOfEntries="10" numberOfStarts="10">
+    <EventClass highAge="12" sequence="280" sex="M" numberInTeam="1" teamEntry="N" numberOfLegs="1" numberOfEntries="10" timePresentation="Y" allowEntryInAdvance="Y">
+      <EventClassId>335747</EventClassId>
+      <Name>H12</Name>
+      <ClassShortName>H12</ClassShortName>
+      <EventClassStatus value="normal"/>
+      <ClassTypeId>17</ClassTypeId>
+      <BaseClassId>31</BaseClassId>
+      <ExternalId>0</ExternalId>
+      <PunchingUnitType value="SI"/>
+      <ClassRaceInfo noOfEntries="10" noOfStarts="10">
+        <EventRaceId>23603</EventRaceId>
+        <Name/>
+      </ClassRaceInfo>
+    </EventClass>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Hedenblom</Family>
+          <Given sequence="1">Noah</Given>
+        </PersonName>
+        <PersonId>104599</PersonId>
+        <BirthDate>
+          <Date>2007-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506090</ResultId>
+        <CCardId>247971</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:05:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:14:51</Clock>
+        </FinishTime>
+        <Time>9:51</Time>
+        <TimeDiff>0:00</TimeDiff>
+        <ResultPosition>1</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Edgren</Family>
+          <Given sequence="1">Albert</Given>
+        </PersonName>
+        <PersonId>141577</PersonId>
+        <BirthDate>
+          <Date>2007-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506092</ResultId>
+        <CCardId>2122045</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:01:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:13:05</Clock>
+        </FinishTime>
+        <Time>12:05</Time>
+        <TimeDiff>2:14</TimeDiff>
+        <ResultPosition>3</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Randåker</Family>
+          <Given sequence="1">Lukas</Given>
+        </PersonName>
+        <PersonId>153348</PersonId>
+        <BirthDate>
+          <Date>2007-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506094</ResultId>
+        <CCardId>2112350</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:59:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:12:19</Clock>
+        </FinishTime>
+        <Time>13:19</Time>
+        <TimeDiff>3:28</TimeDiff>
+        <ResultPosition>5</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Beckman</Family>
+          <Given sequence="1">Einar</Given>
+        </PersonName>
+        <PersonId>112658</PersonId>
+        <BirthDate>
+          <Date>2007-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506095</ResultId>
+        <CCardId>2107569</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:53:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:06:35</Clock>
+        </FinishTime>
+        <Time>13:35</Time>
+        <TimeDiff>3:44</TimeDiff>
+        <ResultPosition>6</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Rapp</Family>
+          <Given sequence="1">Vilgot</Given>
+        </PersonName>
+        <PersonId>135790</PersonId>
+        <BirthDate>
+          <Date>2006-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506097</ResultId>
+        <CCardId>2079717</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:49:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:05:20</Clock>
+        </FinishTime>
+        <Time>16:20</Time>
+        <TimeDiff>6:29</TimeDiff>
+        <ResultPosition>8</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Jenefeldt</Family>
+          <Given sequence="1">Elmer</Given>
+        </PersonName>
+        <PersonId>148525</PersonId>
+        <BirthDate>
+          <Date>2007-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506098</ResultId>
+        <CCardId>2101686</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:57:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:15:12</Clock>
+        </FinishTime>
+        <Time>18:12</Time>
+        <TimeDiff>8:21</TimeDiff>
+        <ResultPosition>9</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Andersson</Family>
+          <Given sequence="1">Malte</Given>
+        </PersonName>
+        <PersonId>159263</PersonId>
+        <BirthDate>
+          <Date>2007-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506099</ResultId>
+        <CCardId>2121999</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:03:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:17:12</Clock>
+        </FinishTime>
+        <Time>14:12</Time>
+        <CompetitorStatus value="MisPunch"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+  </ClassResult>
+  <ClassResult numberOfEntries="7" numberOfStarts="7">
+    <EventClass highAge="10" sequence="290" sex="F" numberInTeam="1" teamEntry="N" numberOfLegs="1" numberOfEntries="7" timePresentation="Y" allowEntryInAdvance="Y">
+      <EventClassId>335748</EventClassId>
+      <Name>D10</Name>
+      <ClassShortName>D10</ClassShortName>
+      <EventClassStatus value="normal"/>
+      <ClassTypeId>17</ClassTypeId>
+      <BaseClassId>57</BaseClassId>
+      <ExternalId>0</ExternalId>
+      <PunchingUnitType value="SI"/>
+      <ClassRaceInfo noOfEntries="7" noOfStarts="7">
+        <EventRaceId>23603</EventRaceId>
+        <Name/>
+      </ClassRaceInfo>
+    </EventClass>
+    <PersonResult>
+      <Person sex="F">
+        <PersonName>
+          <Family>Höglund</Family>
+          <Given sequence="1">Vera</Given>
+        </PersonName>
+        <PersonId>118523</PersonId>
+        <BirthDate>
+          <Date>2008-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506123</ResultId>
+        <CCardId>2088301</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:36:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:47:06</Clock>
+        </FinishTime>
+        <Time>11:06</Time>
+        <TimeDiff>0:29</TimeDiff>
+        <ResultPosition>3</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="F">
+        <PersonName>
+          <Family>Jonsson</Family>
+          <Given sequence="1">Elin</Given>
+        </PersonName>
+        <PersonId>144963</PersonId>
+        <BirthDate>
+          <Date>2008-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506125</ResultId>
+        <CCardId>2101683</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:40:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:52:44</Clock>
+        </FinishTime>
+        <Time>12:44</Time>
+        <TimeDiff>2:07</TimeDiff>
+        <ResultPosition>5</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="F">
+        <PersonName>
+          <Family>Wennberg</Family>
+          <Given sequence="1">Amanda</Given>
+        </PersonName>
+        <PersonId>161260</PersonId>
+        <BirthDate>
+          <Date>2008-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506126</ResultId>
+        <CCardId>2119388</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:32:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:46:54</Clock>
+        </FinishTime>
+        <Time>14:54</Time>
+        <TimeDiff>4:17</TimeDiff>
+        <ResultPosition>6</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="F">
+        <PersonName>
+          <Family>Granhage</Family>
+          <Given sequence="1">Ebba</Given>
+        </PersonName>
+        <PersonId>116524</PersonId>
+        <BirthDate>
+          <Date>2008-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506127</ResultId>
+        <CCardId>2057376</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:42:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:59:40</Clock>
+        </FinishTime>
+        <Time>17:40</Time>
+        <CompetitorStatus value="MisPunch"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+  </ClassResult>
+  <ClassResult numberOfEntries="10" numberOfStarts="9">
+    <EventClass highAge="10" sequence="300" sex="M" numberInTeam="1" teamEntry="N" numberOfLegs="1" numberOfEntries="10" timePresentation="Y" allowEntryInAdvance="Y">
+      <EventClassId>335749</EventClassId>
+      <Name>H10</Name>
+      <ClassShortName>H10</ClassShortName>
+      <EventClassStatus value="normal"/>
+      <ClassTypeId>17</ClassTypeId>
+      <BaseClassId>32</BaseClassId>
+      <ExternalId>0</ExternalId>
+      <PunchingUnitType value="SI"/>
+      <ClassRaceInfo noOfEntries="10" noOfStarts="9">
+        <EventRaceId>23603</EventRaceId>
+        <Name/>
+      </ClassRaceInfo>
+    </EventClass>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Björnbecker</Family>
+          <Given sequence="1">William</Given>
+        </PersonName>
+        <PersonId>141108</PersonId>
+        <BirthDate>
+          <Date>2008-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506102</ResultId>
+        <CCardId>9080121</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:44:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:54:17</Clock>
+        </FinishTime>
+        <Time>10:17</Time>
+        <TimeDiff>2:14</TimeDiff>
+        <ResultPosition>3</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Randåker</Family>
+          <Given sequence="1">Jesper</Given>
+        </PersonName>
+        <PersonId>154840</PersonId>
+        <BirthDate>
+          <Date>2009-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506103</ResultId>
+        <CCardId>2112343</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:56:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>11:06:36</Clock>
+        </FinishTime>
+        <Time>10:36</Time>
+        <TimeDiff>2:33</TimeDiff>
+        <ResultPosition>4</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Hedenblom</Family>
+          <Given sequence="1">Alvar</Given>
+        </PersonName>
+        <PersonId>106197</PersonId>
+        <BirthDate>
+          <Date>2009-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506106</ResultId>
+        <CCardId>2106179</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:48:00</Clock>
+        </StartTime>
+        <FinishTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:59:50</Clock>
+        </FinishTime>
+        <Time>11:50</Time>
+        <TimeDiff>3:47</TimeDiff>
+        <ResultPosition>7</ResultPosition>
+        <CompetitorStatus value="OK"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+    <PersonResult>
+      <Person sex="M">
+        <PersonName>
+          <Family>Andersson</Family>
+          <Given sequence="1">Love</Given>
+        </PersonName>
+        <PersonId>159262</PersonId>
+        <BirthDate>
+          <Date>2009-01-01</Date>
+        </BirthDate>
+        <Nationality>
+          <Country>
+            <CountryId value="752"/>
+            <Alpha3 value="SWE"/>
+            <Name languageId="sv">Sverige</Name>
+            <Name languageId="en">Sweden</Name>
+          </Country>
+        </Nationality>
+      </Person>
+      <Organisation>
+        <OrganisationId>321</OrganisationId>
+        <Name>Sjövalla FK</Name>
+        <ShortName>Sjövalla FK</ShortName>
+        <OrganisationTypeId>5</OrganisationTypeId>
+        <Country>
+          <CountryId value="752"/>
+          <Alpha3 value="SWE"/>
+          <Name languageId="sv">Sverige</Name>
+          <Name languageId="en">Sweden</Name>
+        </Country>
+      </Organisation>
+      <Result>
+        <ResultId>4506109</ResultId>
+        <CCardId>2132249</CCardId>
+        <StartTime>
+          <Date>2018-06-06</Date>
+          <Clock>10:52:00</Clock>
+        </StartTime>
+        <CompetitorStatus value="DidNotStart"/>
+        <ModifyDate>
+          <Date>2018-06-06</Date>
+          <Clock>11:36:04</Clock>
+        </ModifyDate>
+      </Result>
+    </PersonResult>
+  </ClassResult>
+</ResultList>
